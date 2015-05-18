@@ -8,6 +8,7 @@ subtitle: 等到枫叶红了，红叶就疯了
 author: penny
 simple_search: https://www.google.com/search
 description:余攀、博客、js、javascript、爱生活、爱家居
+default_asides: [asides/category_list.html, asides/recent_posts.html]
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
