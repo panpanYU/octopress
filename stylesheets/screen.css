@@ -55,11 +55,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 a {
-    color: #1863a1
+    color: #1863a1；
 }
 
 a:visited {
-    color: #1863a1;
+    color: #b0bdd0;
 
 }
 
@@ -68,6 +68,7 @@ a:focus {
 }
 
 a:hover {
+    cursor: pointer;
     color: #63a04a
 }
 
@@ -221,6 +222,8 @@ ol ol ol {
 }
 
 ul, ul ul, ul ol, ol, ol ul, ol ol {
+    text-align:justify;
+    text-justify: distribute;
   
 }
 
@@ -390,8 +393,8 @@ body > header, body > nav, body > footer, body #content > article, body #content
 
 @media only screen and (min-width: 992px) {
     body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section, body nav[role=pagination] {
-        padding-left: 40px;
-        padding-right: 40px
+        /*padding-left: 40px;*/
+        /*padding-right: 40px*/
     }
 }
 
@@ -786,7 +789,7 @@ body > nav ul {
 
     body > nav a:visited {
         /*color: #5d8c49*/
-        color: #b0bdd0;
+        /*color: #b0bdd0;*/
     }
 
     body > nav a:hover {
@@ -2123,7 +2126,7 @@ body > header h1:after {
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
-    background-image: url('/octopress/images/4.png?1313014525');
+    /*background-image: url('/octopress/images/4.png?1313014525');*/
     background-repeat: no-repeat;
     background-position: 50% 50%
 }
