@@ -55,11 +55,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 a {
-    color: #1863a1；
+    color: #1863a1;
 }
 
 a:visited {
-    color: #b0bdd0;
+    color: #1863a1;
 
 }
 
@@ -73,7 +73,7 @@ a:hover {
 }
 
 a:active {
-    color: #01579f
+    /*color: #01579f*/
 }
 
 aside[role=sidebar] a {
@@ -664,12 +664,13 @@ body > nav form {
     -ms-background-clip: padding-box;
     -khtml-background-clip: padding-box;
     background-clip: padding-box;
-    margin: 0;
-    padding: .1em;
+    /*margin: .1em;*/
+    padding: .2em;
 }
 
 body > nav form .search {
     padding: .3em .5em 0;
+    margin-top: .1.2em;
     font-size: .85em;
     line-height: 1.1em;
     width: 95%;
@@ -717,8 +718,10 @@ body > nav fieldset[role=mobile-nav] {
 
 body > nav fieldset[role=mobile-nav] select {
     width: 100%;
+
     font-size: .8em;
     border: 1px solid #888
+
 }
 
 body > nav ul {
@@ -789,7 +792,7 @@ body > nav ul {
 
     body > nav a:visited {
         /*color: #5d8c49*/
-        /*color: #b0bdd0;*/
+        color: #b0bdd0;
     }
 
     body > nav a:hover {
@@ -843,12 +846,14 @@ body > nav ul {
 
     body > nav ul[data-subscription$=email] + form {
         width: 147px
+
     }
 }
 
 .no-placeholder body > nav .search {
     background: #f0f6ed url('/octopress/images/search.png?1313014525') 0.3em 0.25em no-repeat;
-    text-indent: 1.3em
+    text-indent: 1.3em;
+
 }
 
 @media only screen and (min-width: 550px) {
@@ -904,11 +909,11 @@ body > nav ul {
     position: absolute;
     top: -1px;
     left: 0;
-    background-color: #00
+    /*background-color: #00*/
 }
 
 .maskImage a[rel=subscribe-rss]:hover:after {
-    background-color: #91bc7f
+    background-color: #fff
 }
 
 .maskImage a[rel=subscribe-email] {
