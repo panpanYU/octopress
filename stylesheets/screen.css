@@ -100,18 +100,18 @@ a {
 }
 
 html {
-    background: #0d3b6c url('/octopress/images/1.jpg?1313014525') no-repeat top center;
+    background: #0d3b6c url('/yupan/images/1.jpg?1313014525') no-repeat top center;
 
 }
 
 body > div {
-    background: #071a37 url('/octopress/images/noise.png?1313014525') top left;
+    background: #071a37 url('/yupan/images/noise.png?1313014525') top left;
     border-bottom: 1px solid #;
 
 }
 
 body > div > div {
-    background: #071a37 url('/octopress/images/noise.png?1313014525') top left;
+    background: #071a37 url('/yupan/images/noise.png?1313014525') top left;
     border-right: 1px solid #dadde3；
 
 }
@@ -645,12 +645,12 @@ body > nav {
     position: relative;
     background-color: #071a37;
     /*background-color: #c5dcbb;*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dcead6), color-stop(50%, #c5dcbb), color-stop(100%, #a5c896));*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -webkit-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -moz-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -o-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -ms-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dcead6), color-stop(50%, #c5dcbb), color-stop(100%, #a5c896));*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -webkit-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -moz-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -o-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -ms-linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), linear-gradient(#dcead6, #c5dcbb, #a5c896);*/
     /*border-top: 1px solid #f0f6ed;*/
     /*border-bottom: 1px solid #7db067;*/
     padding-top: .35em;
@@ -851,7 +851,7 @@ body > nav ul {
 }
 
 .no-placeholder body > nav .search {
-    background: #f0f6ed url('/octopress/images/search.png?1313014525') 0.3em 0.25em no-repeat;
+    background: #f0f6ed url('/yupan/images/search.png?1313014525') 0.3em 0.25em no-repeat;
     text-indent: 1.3em;
 
 }
@@ -888,12 +888,12 @@ body > nav ul {
 }
 
 .maskImage a[rel=subscribe-rss], .maskImage a[rel=subscribe-rss]:after {
-    -moz-mask-image: url('/octopress/images/rss.png?1313014525');
-    -webkit-mask-image: url('/octopress/images/rss.png?1313014525');
-    -o-mask-image: url('/octopress/images/rss.png?1313014525');
-    -ms-mask-image: url('/octopress/images/rss.png?1313014525');
-    -khtml-mask-image: url('/octopress/images/rss.png?1313014525');
-    mask-image: url('/octopress/images/rss.png?1313014525');
+    -moz-mask-image: url('/yupan/images/rss.png?1313014525');
+    -webkit-mask-image: url('/yupan/images/rss.png?1313014525');
+    -o-mask-image: url('/yupan/images/rss.png?1313014525');
+    -ms-mask-image: url('/yupan/images/rss.png?1313014525');
+    -khtml-mask-image: url('/yupan/images/rss.png?1313014525');
+    mask-image: url('/yupan/images/rss.png?1313014525');
     -moz-mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     -o-mask-repeat: no-repeat;
@@ -926,12 +926,12 @@ body > nav ul {
 }
 
 .maskImage a[rel=subscribe-email], .maskImage a[rel=subscribe-email]:after {
-    -moz-mask-image: url('/octopress/images/email.png?1313014525');
-    -webkit-mask-image: url('/octopress/images/email.png?1313014525');
-    -o-mask-image: url('/octopress/images/email.png?1313014525');
-    -ms-mask-image: url('/octopress/images/email.png?1313014525');
-    -khtml-mask-image: url('/octopress/images/email.png?1313014525');
-    mask-image: url('/octopress/images/email.png?1313014525');
+    -moz-mask-image: url('/yupan/images/email.png?1313014525');
+    -webkit-mask-image: url('/yupan/images/email.png?1313014525');
+    -o-mask-image: url('/yupan/images/email.png?1313014525');
+    -ms-mask-image: url('/yupan/images/email.png?1313014525');
+    -khtml-mask-image: url('/yupan/images/email.png?1313014525');
+    mask-image: url('/yupan/images/email.png?1313014525');
     -moz-mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     -o-mask-repeat: no-repeat;
@@ -1200,7 +1200,7 @@ p.meta + .sharing {
     text-align: right;
     font-size: 13px;
     line-height: 1.45em;
-    background: #073642 url('/octopress/images/noise.png?1313014525') top left !important;
+    background: #073642 url('/yupan/images/noise.png?1313014525') top left !important;
     border-right: 1px solid #00232c !important;
     -moz-box-shadow: #083e4b -1px 0 inset;
     -webkit-box-shadow: #083e4b -1px 0 inset;
@@ -1240,7 +1240,7 @@ html .gist .gist-file .gist-meta {
     border: 1px solid #083e4b !important;
     color: #586e75;
     font-size: .7em !important;
-    /*background: #073642 url('/octopress/images/noise.png?1313014525') top left;*/
+    /*background: #073642 url('/yupan/images/noise.png?1313014525') top left;*/
     line-height: 1.5em
 }
 
@@ -1274,7 +1274,7 @@ html .gist .gist-file .gist-meta a[href*=raw] {
 }
 
 pre {
-    background: #002b36 url('/octopress/images/noise.png?1313014525') top left;
+    background: #002b36 url('/yupan/images/noise.png?1313014525') top left;
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
     -o-border-radius: 0.4em;
@@ -1331,7 +1331,7 @@ p code {
     padding: .8em !important;
     overflow-x: auto;
     line-height: 1.45em;
-    background: #073642 url('/octopress/images/noise.png?1313014525') top left !important;
+    background: #073642 url('/yupan/images/noise.png?1313014525') top left !important;
     color: #93a1a1 !important
 }
 
@@ -1658,7 +1658,7 @@ figure[role=code] .highlight {
     -khtml-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
     font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
-    background: #aaa url('/octopress/images/code_bg.png?1313014525') top repeat-x;
+    background: #aaa url('/yupan/images/code_bg.png?1313014525') top repeat-x;
     border: 1px solid #565656;
     border-top-color: #cbcbcb;
     border-left-color: #a5a5a5;
@@ -1926,7 +1926,7 @@ aside[role=sidebar]:hover a:hover {
         -khtml-border-bottom-right-radius: 0.3em;
         border-bottom-right-radius: 0.3em;
         text-align: center;
-        background: #FD4D17 url('/octopress/images/noise.png?1313014525') top left;
+        background: #FD4D17 url('/yupan/images/noise.png?1313014525') top left;
         /*border-bottom: 1px solid #dadde3;*/
         /*border-right: 1px solid #dadde3;*/
         content: "\00BB";
@@ -2037,12 +2037,12 @@ body > footer {
     color: #071A37;
     /*text-shadow: #d9d9d9 0 1px;*/
     /*background-color: #082552;*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), -ms-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
-    /*background: url('/octopress/images/noise.png?1313014525'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), -ms-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
+    /*background: url('/yupan/images/noise.png?1313014525'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
     /*border-top: 1px solid #f2f2f2;*/
     position: relative;
     padding-top: 1.4em;
@@ -2087,8 +2087,8 @@ article li em {
 
 @font-face {
     font-family: "Bebas-Neue";
-    src: url('/octopress/fonts/bebasneue-web.eot');
-    src: url('/octopress/fonts/bebasneue-web.eot?iefix') format('eot'), url('/octopress/fonts/bebasneue-web.woff') format('woff'), url('/octopress/fonts/bebasneue-web.ttf') format('truetype'), url('/octopress/fonts/bebasneue-web.svg#BebasNeueRegular') format('svg')
+    src: url('/yupan/fonts/bebasneue-web.eot');
+    src: url('/yupan/fonts/bebasneue-web.eot?iefix') format('eot'), url('/yupan/fonts/bebasneue-web.woff') format('woff'), url('/yupan/fonts/bebasneue-web.ttf') format('truetype'), url('/yupan/fonts/bebasneue-web.svg#BebasNeueRegular') format('svg')
 }
 
 body > header h1 {
@@ -2131,7 +2131,7 @@ body > header h1:after {
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
-    /*background-image: url('/octopress/images/4.png?1313014525');*/
+    /*background-image: url('/yupan/images/4.png?1313014525');*/
     background-repeat: no-repeat;
     background-position: 50% 50%
 }
