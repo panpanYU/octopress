@@ -9,23 +9,17 @@
     <meta charset="utf-8">
     <title>Octopress: Octopress Help</title>
     <meta name="author" content="Brandon Mathis">
-
-
     <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <link rel="canonical" href="http://octopress.org/help/index.html"/>
     <link href="./favicon.ico" rel="shortcut icon"/>
     <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
     <script src="./javascripts/modernizr-2.0.js"></script>
     <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
     <script src="./javascripts/octopress.js" type="text/javascript"></script>
-
     <link href="./octopress/atom.xml" rel="alternate" title="Octopress" type="application/atom+xml"/>
-
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-10876422-2']);
@@ -40,8 +34,6 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
-
-
     <script type="text/javascript">
         (function () {
             var script = document.createElement('script');
@@ -52,8 +44,6 @@
             s.parentNode.insertBefore(script, s);
         })();
     </script>
-
-
     <script type="text/javascript">
         (function () {
             var twitterWidgets = document.createElement('script');
@@ -63,25 +53,18 @@
             document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
         })();
     </script>
-
-
     <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet'
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet'
           type='text/css'>
-
 </head>
-
-<body >
-
-<header><hgroup>
-    <h1><a href="/octopress/">🍁</  <a></h1>
-
-    <h2>When the maple leaves red</h2>
-
-</hgroup>
-
+<body>
+<header>
+    <hgroup>
+        <h1><a href="/octopress/">🍁</  <a></h1>
+        <h2>When the maple leaves red</h2>
+    </hgroup>
 </header>
 <nav role=navigation style="margin-bottom: 18px;">
     <ul role=subscription data-subscription="rss">
@@ -95,15 +78,14 @@
         </fieldset>
     </form>
     <ul role=main-navigation>
-        <li><a href="./">Home</a></li>
-        <li><a href="./docs">Article</a></li>
-        <li><a href="./help">Life</a></li>
-        <li><a href="./faq">FAQ</a></li>
+        <li><a href="http://www.52rzb.com/yupan/">Home</a></li>
+        <li><a href="http://www.52rzb.com/yupan/article">Article</a></li>
+        <li><a href="http://www.52rzb.com/yupan/case">Case</a></li>
+        <li><a href="http://www.52rzb.com/yupan/article/opus">Opus</a></li>
+        <li><a href="http://www.52rzb.com/yupan/life">Life</a></li>
+        <li><a href="http://www.52rzb.com/yupan/article/faq">FAQ</a></li>
     </ul>
-
 </nav>
-
-
 <div id="main">
 <div id="content">
 <div>
@@ -187,7 +169,7 @@
     </li>
     <li><strong>call和apply应用:</strong></br>
         call方法:</br>
-        语法：<code>call([thisObj[,arg1[, arg2[,   [,.argN]]]]])</code></br>
+        语法：<code>call([thisObj[,arg1[, arg2[, [,.argN]]]]])</code></br>
         定义：调用一个对象的一个方法，以另一个对象替换当前对象。</br>
         说明：call 方法可以用来代替另一个对象调用一个方法。call 方法可将一个函数的对象上下文从初始的上下文改变为由 thisObj 指定的新对象。
         如果没有提供 thisObj 参数，那么 Global 对象被用作 thisObj。</br>
@@ -263,13 +245,13 @@
 
 <ol>
     <li><strong>事件对象及兼容处理:</strong> 事件绑定就是：当这个事件发生的时候，运行一个或多个方法（function），比如说当鼠标点击网页的时候，就弹出一个“事件”.
-        •  事件对象本身：标准浏览器是事件发生时自动给方法传一个实参，这个实参就是事件对象。IE是全局的window.event
-        •  阻止事件传播：e.stopPropagation这个方法，IE是e.cancelBubble=true这个属性
-        •  阻止默认行为：e.preventDefault()方法，IE是e.returnValue=false;
-        •  事件源：e.target.IE是e.srcElement
-        •  e.pageX,e.pageY，IE不支持这两个属性
-        •  DOM二级的事件绑定：ele.addEventListener,IE是ele.attachEvent
-        •  IE的attachEvent绑定的方法上：1、this不是当前的元素，2执行顺序是混乱的
+        • 事件对象本身：标准浏览器是事件发生时自动给方法传一个实参，这个实参就是事件对象。IE是全局的window.event
+        • 阻止事件传播：e.stopPropagation这个方法，IE是e.cancelBubble=true这个属性
+        • 阻止默认行为：e.preventDefault()方法，IE是e.returnValue=false;
+        • 事件源：e.target.IE是e.srcElement
+        • e.pageX,e.pageY，IE不支持这两个属性
+        • DOM二级的事件绑定：ele.addEventListener,IE是ele.attachEvent
+        • IE的attachEvent绑定的方法上：1、this不是当前的元素，2执行顺序是混乱的
 
     </li>
 
@@ -344,13 +326,13 @@
 <ol>
     <li><strong>移动端事件:</strong></br>
         <code>touchstart: </code>手指放到屏幕上的时候触发</br>
-       <code> touchmove: </code> 手指在屏幕上移动的时候触发</br>
+        <code> touchmove: </code> 手指在屏幕上移动的时候触发</br>
         <code>touchend: </code> 手指从屏幕上拿起的时候触发</br>
-        <code>touchcancel:</code>  系统取消touch事件的时候触发。至于系统什么时候会取消，不详</br>
-       <code> client / clientY：</code>// 触摸点相对于浏览器窗口viewport的位置</br>
+        <code>touchcancel:</code> 系统取消touch事件的时候触发。至于系统什么时候会取消，不详</br>
+        <code> client / clientY：</code>// 触摸点相对于浏览器窗口viewport的位置</br>
         <code>pageX / pageY：</code>触摸点相对于页面的位置</br>
         <code>screenX /screenY:</code> 触摸点相对于屏幕的位置</br>
-        <code>identifier：</code>  touch对象的unique ID</br>
+        <code>identifier：</code> touch对象的unique ID</br>
     </li>
     <li><strong>长用框架:</strong>
     </li>
@@ -412,8 +394,6 @@
 </p>
 
 </footer>
-
-
 
 
 <div id="fukidashiBox">

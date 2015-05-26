@@ -1,10 +1,435 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+<!--[if IEMobile 7 ]>
+<html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]>
+<html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Octopress: Octopress Help</title>
+    <meta name="author" content="Brandon Mathis">
+
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="canonical" href="http://octopress.org/help/index.html"/>
+    <link href="../favicon.ico" rel="shortcut icon"/>
+    <link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script src="../javascripts/modernizr-2.0.js"></script>
+    <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+    <script src="../javascripts/octopress.js" type="text/javascript"></script>
+
+    <!--<link href="/octopress/octopress/atom.xml" rel="alternate" title="Octopress" type="application/atom+xml"/>-->
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-10876422-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+    <script type="text/javascript">
+        (function () {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(script, s);
+        })();
+    </script>
+
+
+    <script type="text/javascript">
+        (function () {
+            var twitterWidgets = document.createElement('script');
+            twitterWidgets.type = 'text/javascript';
+            twitterWidgets.async = true;
+            twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+            document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+        })();
+    </script>
+
+
+    <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet'
+          type='text/css'>
+
 </head>
-<body>
+
+<body class="collapse-sidebar">
+
+<header>
+    <hgroup>
+        <h1><a href="#">    </a></h1>
+
+        <h2>penny</h2>
+
+    </hgroup>
+
+</header>
+<nav role=navigation style="margin-bottom: 18px;">
+    <ul role=subscription data-subscription="rss">
+        <!--<li><a href="../atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>-->
+        <li><a href="#" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+
+    </ul>
+    <form action="http://google.com/search" method="get">
+        <fieldset role="site-search">
+            <input type="hidden" name="q" value="site:octopress.org"/>
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+        </fieldset>
+    </form>
+    <ul role=main-navigation>
+        <li><a href="http://www.52rzb.com/yupan/">Home</a></li>
+        <li><a href="http://www.52rzb.com/yupan/article">Article</a></li>
+        <li><a href="http://www.52rzb.com/yupan/case">Case</a></li>
+        <li><a href="http://www.52rzb.com/yupan/article/opus">Opus</a></li>
+        <li><a href="http://www.52rzb.com/yupan/life">Life</a></li>
+        <li><a href="http://www.52rzb.com/yupan/article/faq">FAQ</a></li>
+    </ul>
+
+</nav>
+
+
+<div id="main">
+<div id="content">
+<div>
+<article>
+<header>
+
+
+    <h2 class="entry-title">
+        <ul>
+            <li><a name="预解释"> Javascript基础知识汇总 </a></li>
+            <li class="right"><a onclick="fn()" id="hide">>>></a></li>
+        </ul>
+    </h2>
+
+
+</header>
+
+<ol id="hide_ol" style="display: none;">
+    <li><a href="#预解释">1. 预解释、闭包、this、面向对象</a></li>
+    <li><a href="#原型深入">2. 原型深入、call和apply应用、正则及应用</a></li>
+    <li><a href="#DOM盒子模型">3. DOM盒子模型、延迟加载、DOM库</a></li>
+    <li><a href="#jQuery原理">4. jQuery原理及应用、tween动画、轮播图</a></li>
+    <li><a href="#事件对象">5. 事件对象及兼容处理、事件传播、基础事件库</a></li>
+    <li><a href="#事件高级">6. 事件高级、设计模式、拖拽、碰撞检测</a></li>
+    <li><a href="#ajax">7. ajax、jsonp跨域、基本的nodejs讲解</a></li>
+    <li><a href="#移动端">8. 移动端HTML3+CSS3、zepto</a></li>
+    <li><a href="#移动端事件">9. 移动端事件、长用框架、音视频、离线本地存储等新兴的API</a></li>
+    <li><a href="#总结">10. 总结</a></li>
+    </li>
+</ol>
+
+<script type="text/javascript">
+
+    var oHide = document.getElementById("hide");
+    oHide.onclick = function fn() {
+        if (hide_ol.style.display == "block") {
+            document.getElementById("hide_ol").style.display = "none";
+            oHide.innerHTML = ">>>";
+        } else {
+            document.getElementById("hide_ol").style.display = "block";
+            oHide.innerHTML = "❤️";
+        }
+    }
+
+
+</script>
+
+<!--111111111111111111111-->
+
+<h2><a name="预解释">1. 预解释、闭包、this、面向对象</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+
+<ol>
+    <li><strong>预解释:</strong> 在当前作用域下，代码执行之前，首先把所有带<code>var</code>和<code>function</code>关键字的变量（函数）提前的
+        声明或者定义。
+    </li>
+    <li><strong>闭包:</strong> 在函数执行时形成一个私有作用域，来保护里面的私有变量不受外界干扰，我们把这种机制叫做闭包。（闭包不是一种
+        形式，而是一种机制。）
+    </li>
+    <li><strong>this关键字:</strong> this是当前行为的主体，上下文是活动的范围。this是谁，和在哪定义的没有关系，和在在哪执行也没有关系，
+        只有当函数执行的主体有关系，怎么看执行的主体：方法名（）看方法名之前有没有“.”，有的话“.”前面是谁，this就是谁，没有的话是window。
+        给元素绑定事件，函数中的this是这个元素。
+    </li>
+    <li><strong>面向对象:</strong> 类的继承封装，通过类创造一个实例，继承所有属性名和属性值。（模块化开发：1.单例模式；2.工厂模式）
+    </li>
+    </li>
+    <li><a>More</a></li>
+</ol>
+
+
+<!--2222222222222222222222222-->
+<h2><a name="原型深入">2. 原型深入、call和apply应用、正则及应用</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>原型深入:</strong> 在当前作用域下，代码执行之前，首先把所有带<code>var</code>和<code>function</code>关键字的变量（函数）提前的
+        声明或者定义。
+    </li>
+    <li><strong>call和apply应用:</strong></br>
+        call方法:</br>
+        语法：<code>call([thisObj[,arg1[, arg2[,   [,.argN]]]]])</code></br>
+        定义：调用一个对象的一个方法，以另一个对象替换当前对象。</br>
+        说明：call 方法可以用来代替另一个对象调用一个方法。call 方法可将一个函数的对象上下文从初始的上下文改变为由 thisObj 指定的新对象。
+        如果没有提供 thisObj 参数，那么 Global 对象被用作 thisObj。</br>
+
+        apply方法：</br>
+        语法：<code>apply([thisObj[,argArray]])</code></br>
+        定义：应用某一对象的一个方法，用另一个对象替换当前对象。</br>
+        说明：如果 argArray 不是一个有效的数组或者不是 arguments 对象，那么将导致一个 TypeError。
+        如果没有提供 <code>argArray</code> 和 <code>thisObj</code> 任何一个参数，那么 Global 对象将被用作 thisObj， 并且无法被传递任何参数。</br>
+    </li>
+    <li><strong>正则及应用:</strong> 1、正则定义了一个字符串的模型。2、正则的第一个作用是“验证某字符串是否和这个模型相匹配”。
+        3、正则的第二个作用是“把匹配到的内容找出来”。
+    </li>
+</ol>
+
+
+<h2><a name="DOM盒子模型">3. DOM盒子模型、延迟加载、DOM库</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>DOM盒子模型:</strong> 盒子的概念</br>
+        1、clientWidth和clientHeight (盒子的带padding的宽和高)</br>
+        2、offsetWidth和offsetHeight (盒子的带padding+border的宽和高)</br>
+        3、scrollWidth和scrollHeight (盒子的内容的实际的宽和高)</br>
+    </li>
+    <li><strong>延迟加载:</strong> 这里延迟加载的意思是，拖动滚动条时，在图片出现在浏览器显示区域后才加载显示。
+        大概的实现方式是：
+        在页面的load没有触发之前，把所有的指定id的元素内的img放入到imgs中，将所有的图片的src值放入到一个新建的_src属性中，把src设置为指定的显示图片。
+        然后，在document.body的scroll事件触发时，循环计算imgs中的img元素位置是否正好在浏览器显示框范围内，如果是，则将img元素的_src属性的值赋给src，
+        这样图片就能显示出来。
+        这里比较麻烦地方是，如何计算img的位置，获得元素的相对于页面的绝对位置。通常是用offsetLeft和offsetTop，但这两个属性是元素的offsetParent
+        指向的元素的相对位置， 如果offsetParent所指的元素是设置了浮动的或使用绝对定位，那么offsetLeft来获得绝对位置就不正确呢。
+    </li>
+    <li><strong>DOM库:</strong>
+        1、通过元素ID获取节点：</br>
+        2、document.getElementById(元素ID名)</br>
+        3、通过元素的name属性获取节点：(元素name属性)
+        <code>document.getElementByName</code></br>
+        4、通过元素的标签名获取节点：(元素标签);</br>
+        <code>document.getELementByTagName</code></br>
+        5、它返回的是nodeList对象</br>
+        6、通过类名获取节点：(元素类名)。IE6/7/8不支持
+        <code>getElementByClassName</code></br>
+        7、jQuery风格的元素查找方法，获得一个DOM元素。从IE8开始支持</br>
+        8、jQuery风格的元素查找方法，获得一组DOM元素。从IE8开始支持</br>
+    </li>
+</ol>
+
+<h2><a name="jQuery原理">4. jQuery原理及应用、tween动画、轮播图</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>jQuery原理及应用:</strong> jQuery对象是通过jQuery框架包装DOM对象之后产生的一个新对象，从本质上分析它仅是DOM对象的集合，
+        而jQuery可是是多个DOM对象组成的数据集合。
+    </li>
+    <li><strong>tween动画:</strong> Tween中的方法接受4个参数t,b,c,d 。返回值为计算后的当前位置.
+
+        t => time(初始记步次数) </br>
+        b => begin(初始位置) </br>
+        c => change(变化量)  </br>
+        d => duration(持续次数)</br>
+
+
+    </li>
+    <li><strong>轮播图:</strong> 先创建一个图片列表。
+        然后设置一个定时器，
+        每隔一定的时间（比如2秒）就切换当前图片到下一张。
+    </li>
+</ol>
+
+<h2><a name="事件对象">5. 事件对象及兼容处理、事件传播、基础事件库</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>事件对象及兼容处理:</strong> 事件绑定就是：当这个事件发生的时候，运行一个或多个方法（function），比如说当鼠标点击网页的时候，就弹出一个“事件”.
+        •  事件对象本身：标准浏览器是事件发生时自动给方法传一个实参，这个实参就是事件对象。IE是全局的window.event
+        •  阻止事件传播：e.stopPropagation这个方法，IE是e.cancelBubble=true这个属性
+        •  阻止默认行为：e.preventDefault()方法，IE是e.returnValue=false;
+        •  事件源：e.target.IE是e.srcElement
+        •  e.pageX,e.pageY，IE不支持这两个属性
+        •  DOM二级的事件绑定：ele.addEventListener,IE是ele.attachEvent
+        •  IE的attachEvent绑定的方法上：1、this不是当前的元素，2执行顺序是混乱的
+
+    </li>
+
+</ol>
+
+<h2><a name="事件高级">6. 事件高级、设计模式、拖拽、碰撞检测</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>事件高级:</strong></li>
+</ol>
+
+<h2><a name="ajax">7. ajax、jsonp跨域、基本的nodejs讲解</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>ajax:</strong> 什么是 ajax
+        ajax 即“Asynchronous JavaScript and XML”（异步 JavaScript 和 XML），也就是无刷新数据读取。</br>
+
+        http 请求:首先需要了解 http 请求的方法（GET 和 POST）。</br>
+
+        GET:用于获取数据。GET 是在 URL 中传递数据，它的安全性低，容量低。</br>
+
+        POST:用于上传数据。POST 安全性一般，容量几乎无限。</br>
+
+        ajax 请求</br>
+        ajax 请求一般分成 4 个步骤。</br>
+        1、创建 ajax 对象</br>
+        2、连接服务器</br>
+        3、发送请求</br>
+        4、接收返回值</br>
+
+
+    </li>
+    <li><strong>jsonp跨域:</strong> JSONP的最基本的原理是：动态添加一个<code>script</code>标签，而script标签的src属性是没有跨域的限制的。
+        JSONP即JSON with Padding。由于同源策略的限制，XmlHttpRequest只允许请求当前源（域名、协议、端口）的资源。如果要进行跨域请求，
+        我们可以通过使用html的script标记来进行跨域请求，并在响应中返回要执行的script代码，其中可以直接使用JSON传递javascript对象。
+        这种跨域的通讯方式称为JSONP。
+    </li>
+    <li><strong>基本的nodejs讲解:</strong>
+    </li>
+</ol>
+
+<h2><a name="移动端">8. 移动端HTML3+CSS3、zepto</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>HTML5:</strong></br>
+        1、绘图功能（Canvas、SVG)</br>
+        2、三维效果（css3、3D）</br>
+        3、离线存储（HTML5 web storage）目前chrome支持5m，cookie记录用户浏览数据的。</br>
+        作用：幻灯片>交互式动画</br></li>
+    <li><strong>HTML5:</strong></br>
+        css3:盒子模型、列表模块、超链接方式 、语言模块 、背景和边框 、文字特效 、多栏布局等。
+        作用：1．减少开发与维护成本</br>
+        2．提高页面性能
+
+    </li>
+    <li><strong>zepto:</strong>移动web app开发涉及到页面的网速和流量问题，zepto在jquery语法基础上做了最大精简，
+        剔除了pc端浏览器兼容的代码，在移动web页面中可以坐到最大的减少js插件的大小。
+    </li>
+
+</ol>
+
+<h2><a name="移动端事件">9. 移动端事件、长用框架、音视频、离线本地存储等新兴的API</a></h2>
+
+<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+
+<ol>
+    <li><strong>移动端事件:</strong></br>
+        <code>touchstart: </code>手指放到屏幕上的时候触发</br>
+        <code> touchmove: </code> 手指在屏幕上移动的时候触发</br>
+        <code>touchend: </code> 手指从屏幕上拿起的时候触发</br>
+        <code>touchcancel:</code>  系统取消touch事件的时候触发。至于系统什么时候会取消，不详</br>
+        <code> client / clientY：</code>// 触摸点相对于浏览器窗口viewport的位置</br>
+        <code>pageX / pageY：</code>触摸点相对于页面的位置</br>
+        <code>screenX /screenY:</code> 触摸点相对于屏幕的位置</br>
+        <code>identifier：</code>  touch对象的unique ID</br>
+    </li>
+    <li><strong>长用框架:</strong>
+    </li>
+    <li><strong>音视频:</strong>
+    </li>
+    <li><strong>离线本地存储等新兴的API:</strong>
+    </li>
+</ol>
+
+
+<h2><a name="总结">10. 总结</a></h2>
+
+<p class="star_one">学习情况：<span id="star">★★★☆☆</span></p>
+
+
+</article>
+
+</div>
+
+<aside role=sidebar>
+
+    <section>
+        <h1>技术问题 <img src="../images/3.gif"></h1>
+        <ul id="recent_posts">
+
+            <li class="post">
+                <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
+                <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
+                <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
+
+            </li>
+
+        </ul>
+
+
+    </section>
+
+    <section>
+        <h1>Latest Tweets</h1>
+
+        <script type="text/javascript">
+            $.domReady(function () {
+                getTwitterFeed("octopress", 4, false);
+            });
+        </script>
+        <script src="../javascripts/twitter.js" type="text/javascript"></script>
+
+        <a href="http://twitter.com/octopress" class="twitter-follow-button" data-width="208px"
+           data-show-count="false">Follow @octopress</a>
+
+    </section>
+
+
+</aside>
+
+
+</div>
+</div>
+<footer><p>
+    Copyright &copy; 2015 - pennyYU -
+    <span class="credit">Powered by <a href="http://octopress.org">blog</a></span>
+</p>
+
+</footer>
+
+
+
+
+<div id="fukidashiBox">
+    <p><a href="#top" target="_self">Top</a>
+</div>
+
 
 </body>
 </html>
