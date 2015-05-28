@@ -7,7 +7,7 @@
 <html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octopress: Octopress Help</title>
+  <title>文章</title>
   <meta name="author" content="Brandon Mathis">
 
 
@@ -77,9 +77,7 @@
 
 <header>
   <hgroup>
-    <h1><a href="#">    </a></h1>
-
-    <h2>penny</h2>
+    <h1><a href="#">不爱就疯狂</a></h1>
 
   </hgroup>
 
@@ -158,12 +156,8 @@
 <!--111111111111111111111-->
 
 <h2><a name="预解释">1. 预解释、闭包、this、面向对象</a></h2>
-
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
-
-
 <ol>
-  <li><strong>预解释:</strong> 在当前作用域下，代码执行之前，首先把所有带<code>var</code>和<code>function</code>关键字的变量（函数）提前的
+  <li><strong>预解释:</strong> 在当前作用域下，代码执行之前，首先把所有带var和function关键字的变量（函数）提前的
     声明或者定义。
   </li>
   <li><strong>闭包:</strong> 在函数执行时形成一个私有作用域，来保护里面的私有变量不受外界干扰，我们把这种机制叫做闭包。（闭包不是一种
@@ -183,24 +177,22 @@
 <!--2222222222222222222222222-->
 <h2><a name="原型深入">2. 原型深入、call和apply应用、正则及应用</a></h2>
 
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
-
 <ol>
-  <li><strong>原型深入:</strong> 在当前作用域下，代码执行之前，首先把所有带<code>var</code>和<code>function</code>关键字的变量（函数）提前的
+  <li><strong>原型深入:</strong> 在当前作用域下，代码执行之前，首先把所有带var和function关键字的变量（函数）提前的
     声明或者定义。
   </li>
   <li><strong>call和apply应用:</strong></br>
     call方法:</br>
-    语法：<code>call([thisObj[,arg1[, arg2[,   [,.argN]]]]])</code></br>
+    语法：call([thisObj[,arg1[, arg2[,   [,.argN]]]]])</br>
     定义：调用一个对象的一个方法，以另一个对象替换当前对象。</br>
     说明：call 方法可以用来代替另一个对象调用一个方法。call 方法可将一个函数的对象上下文从初始的上下文改变为由 thisObj 指定的新对象。
     如果没有提供 thisObj 参数，那么 Global 对象被用作 thisObj。</br>
 
     apply方法：</br>
-    语法：<code>apply([thisObj[,argArray]])</code></br>
+    语法：apply([thisObj[,argArray]])</br>
     定义：应用某一对象的一个方法，用另一个对象替换当前对象。</br>
     说明：如果 argArray 不是一个有效的数组或者不是 arguments 对象，那么将导致一个 TypeError。
-    如果没有提供 <code>argArray</code> 和 <code>thisObj</code> 任何一个参数，那么 Global 对象将被用作 thisObj， 并且无法被传递任何参数。</br>
+    如果没有提供 argArray 和 thisObj任何一个参数，那么 Global 对象将被用作 thisObj， 并且无法被传递任何参数。</br>
   </li>
   <li><strong>正则及应用:</strong> 1、正则定义了一个字符串的模型。2、正则的第一个作用是“验证某字符串是否和这个模型相匹配”。
     3、正则的第二个作用是“把匹配到的内容找出来”。
@@ -209,8 +201,6 @@
 
 
 <h2><a name="DOM盒子模型">3. DOM盒子模型、延迟加载、DOM库</a></h2>
-
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>DOM盒子模型:</strong> 盒子的概念</br>
@@ -230,20 +220,18 @@
     1、通过元素ID获取节点：</br>
     2、document.getElementById(元素ID名)</br>
     3、通过元素的name属性获取节点：(元素name属性)
-    <code>document.getElementByName</code></br>
+    document.getElementByName</br>
     4、通过元素的标签名获取节点：(元素标签);</br>
-    <code>document.getELementByTagName</code></br>
+    document.getELementByTagName</br>
     5、它返回的是nodeList对象</br>
     6、通过类名获取节点：(元素类名)。IE6/7/8不支持
-    <code>getElementByClassName</code></br>
+    getElementByClassName</br>
     7、jQuery风格的元素查找方法，获得一个DOM元素。从IE8开始支持</br>
     8、jQuery风格的元素查找方法，获得一组DOM元素。从IE8开始支持</br>
   </li>
 </ol>
 
 <h2><a name="jQuery原理">4. jQuery原理及应用、tween动画、轮播图</a></h2>
-
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>jQuery原理及应用:</strong> jQuery对象是通过jQuery框架包装DOM对象之后产生的一个新对象，从本质上分析它仅是DOM对象的集合，
@@ -266,7 +254,6 @@
 
 <h2><a name="事件对象">5. 事件对象及兼容处理、事件传播、基础事件库</a></h2>
 
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>事件对象及兼容处理:</strong> 事件绑定就是：当这个事件发生的时候，运行一个或多个方法（function），比如说当鼠标点击网页的时候，就弹出一个“事件”.
@@ -284,7 +271,6 @@
 
 <h2><a name="事件高级">6. 事件高级、设计模式、拖拽、碰撞检测</a></h2>
 
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>事件高级:</strong></li>
@@ -292,7 +278,6 @@
 
 <h2><a name="ajax">7. ajax、jsonp跨域、基本的nodejs讲解</a></h2>
 
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>ajax:</strong> 什么是 ajax
@@ -313,7 +298,7 @@
 
 
   </li>
-  <li><strong>jsonp跨域:</strong> JSONP的最基本的原理是：动态添加一个<code>script</code>标签，而script标签的src属性是没有跨域的限制的。
+  <li><strong>jsonp跨域:</strong> JSONP的最基本的原理是：动态添加一个script标签，而script标签的src属性是没有跨域的限制的。
     JSONP即JSON with Padding。由于同源策略的限制，XmlHttpRequest只允许请求当前源（域名、协议、端口）的资源。如果要进行跨域请求，
     我们可以通过使用html的script标记来进行跨域请求，并在响应中返回要执行的script代码，其中可以直接使用JSON传递javascript对象。
     这种跨域的通讯方式称为JSONP。
@@ -323,8 +308,6 @@
 </ol>
 
 <h2><a name="移动端">8. 移动端HTML3+CSS3、zepto</a></h2>
-
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>HTML5:</strong></br>
@@ -346,18 +329,17 @@
 
 <h2><a name="移动端事件">9. 移动端事件、长用框架、音视频、离线本地存储等新兴的API</a></h2>
 
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
 
 <ol>
   <li><strong>移动端事件:</strong></br>
-    <code>touchstart: </code>手指放到屏幕上的时候触发</br>
-    <code> touchmove: </code> 手指在屏幕上移动的时候触发</br>
-    <code>touchend: </code> 手指从屏幕上拿起的时候触发</br>
-    <code>touchcancel:</code>  系统取消touch事件的时候触发。至于系统什么时候会取消，不详</br>
-    <code> client / clientY：</code>// 触摸点相对于浏览器窗口viewport的位置</br>
-    <code>pageX / pageY：</code>触摸点相对于页面的位置</br>
-    <code>screenX /screenY:</code> 触摸点相对于屏幕的位置</br>
-    <code>identifier：</code>  touch对象的unique ID</br>
+    touchstart: 手指放到屏幕上的时候触发</br>
+     touchmove:  手指在屏幕上移动的时候触发</br>
+    touchend:  手指从屏幕上拿起的时候触发</br>
+    touchcancel:  系统取消touch事件的时候触发。至于系统什么时候会取消，不详</br>
+     client / clientY：// 触摸点相对于浏览器窗口viewport的位置</br>
+    pageX / pageY：触摸点相对于页面的位置</br>
+    screenX /screenY: 触摸点相对于屏幕的位置</br>
+    identifier：  touch对象的unique ID</br>
   </li>
   <li><strong>长用框架:</strong>
   </li>
@@ -418,7 +400,7 @@
 </div>
 <footer><p>
   Copyright &copy; 2015 - pennyYU -
-  <span class="credit">Powered by <a href="http://octopress.org">blog</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Github</a></span>
 </p>
 
 </footer>
