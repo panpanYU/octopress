@@ -102,7 +102,7 @@ a {
 }
 
 html {
-    background: #fff url('/yupan/images/girl.jpg?1313014525') no-repeat center left;
+    background: #fff url('/yupan/images/girl.jpg?1313014525') no-repeat bottom left;
 }
 
 body > div {
@@ -377,8 +377,8 @@ body {
 }
 
 body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section, body nav[role=pagination] {
-    padding-left: 12px;
-    padding-right: 12px
+    /*padding-left: 12px;*/
+    /*padding-right: 12px*/
 }
 
 @media only screen and (min-width: 480px) {
