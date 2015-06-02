@@ -71,19 +71,20 @@
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet'
           type='text/css'>
     <style type="text/css">
-        #menu{
-            height: 820px;
+        #menu {
+            /*height: 820px;*/
         }
+
         #menu li {
 
             height: 200px;
             width: 49.8%;
             float: left;
-margin-right: 1px;
-
+            margin-right: 1px;
 
         }
-        #menu span img{
+
+        #menu span img {
             display: block;
             z-index: 0;
         }
@@ -116,7 +117,6 @@ margin-right: 1px;
         .end::before {
             /*content:"none";*/
 
-
         }
 
         .open::before {
@@ -128,29 +128,29 @@ margin-right: 1px;
             padding-top: 6px;
             font-size: 20px;
             line-height: 20px;
-            background-color:#fff;
-            border-radius: 20px;
+            background-color: #fff;
             text-align: center;
-            -webkit-transition-duration: 2s;
-            opacity: 0.8;
-
+            -webkit-transition: .7s;
+            -moz-transition: .7s;
+            -o-transition: .7s;
+            transition: .7s;
         }
 
         .close::before {
             z-index: 1;
             position: absolute;
             content: "展开";
-            color: #1f8007;
+            color: #BDDCFC;
             padding-left: 10px;
             padding-top: 6px;
             font-size: 20px;
             line-height: 20px;
-            background-color:#fff;
-            border-radius: 20px;
+            background-color: #fff;
             text-align: center;
-            opacity: 0.8;
-
-
+            -webkit-transition: .7s;
+            -moz-transition: .7s;
+            -o-transition: .7s;
+            transition: .7s;
         }
 
     </style>
@@ -160,7 +160,7 @@ margin-right: 1px;
 
 <header>
     <hgroup>
-        <h1><a href="#">    </a></h1>
+        <h1><a href="#">爱就坚强不就就疯狂</a></h1>
 
         <h2>爱就坚强不就就疯狂</h2>
 
@@ -173,12 +173,13 @@ margin-right: 1px;
         <li><a href="#" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
 
     </ul>
-    <form action="http://google.com/search" method="get">
+    <form method="get" id="searchform" action="http://google.com/search" >
         <fieldset role="site-search">
             <input type="hidden" name="q" value="site:octopress.org"/>
-            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+            <input class="search" type="text" name="q" results="0" placeholder="Search" id="s"/>
         </fieldset>
     </form>
+
     <ul role=main-navigation>
         <li><a href="http://www.52rzb.com/yupan/">Home</a></li>
         <li><a href="http://www.52rzb.com/yupan/article">Article</a></li>
@@ -199,11 +200,12 @@ margin-right: 1px;
 
 <h2><a name="预解释">Javascript实现常用动态效果图</a></h2>
 
-<p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+<!--<p class="star_one">难度系数</p>-->
 
 <ul id="menu">
 <li>
-    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_1.jpeg"></div></span>
+    <span><div class="course-list-img"><img width="490" height="200" title="九九乘法表" alt="九九乘法表"
+                                            src="/yupan/images/case_1.jpeg"></div></span>
     <ul>
         <li><span><pre class="intro">
  <textarea class="codeST">
@@ -295,11 +297,31 @@ margin-right: 1px;
      </script>
      </body>
      </html>
- </textarea></pre></span></li>
+ </textarea>
+<input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])"
+       value="运行代码"/>
+<script>
+    function runCode(obj)  //定义一个运行代码的函数，
+    {
+        var code = obj.value;//即要运行的代码。
+        var newwin = window.open('', '', '');  //打开一个窗口并赋给变量newwin。
+        newwin.opener = null // 防止代码对论谈页面修改
+        newwin.document.write(code);  //向这个打开的窗口中写入代码code，这样就实现了运行代码功能。
+        newwin.document.close();
+    }</script>
+
+
+
+
+
+
+
+        </pre></span></li>
 
     </ul>
 <li>
-    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_3.png"></div></span>
+    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
+                                            src="/yupan/images/case_3.png"></div></span>
     <ul>
         <li><span><pre class="intro">
 <textarea class="codeST">
@@ -460,38 +482,62 @@ margin-right: 1px;
         }
     </script>
 </textarea>
+<input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])" value="运行代码"/>
+<script>
+    function runCode(obj)  //定义一个运行代码的函数，
+    {
+        var code = obj.value;//即要运行的代码。
+        var newwin = window.open('', '', '');  //打开一个窗口并赋给变量newwin。
+        newwin.opener = null // 防止代码对论谈页面修改
+        newwin.document.write(code);  //向这个打开的窗口中写入代码code，这样就实现了运行代码功能。
+        newwin.document.close();
+    }</script>
                          </pre>
 
-                             </span></li >
+                             </span></li>
     </ul>
 </li>
 <li>
-    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_6.png"></div></span>
+    <span><div class="course-list-img">
+        <img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_6.png"></div></span>
     <ul>
         <li><span><pre class="intro">
 <textarea class="codeST">
 
 </textarea>
+<input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])" value="运行代码"/>
+<script>
+    function runCode(obj)  //定义一个运行代码的函数，
+    {
+        var code = obj.value;//即要运行的代码。
+        var newwin = window.open('', '', '');  //打开一个窗口并赋给变量newwin。
+        newwin.opener = null // 防止代码对论谈页面修改
+        newwin.document.write(code);  //向这个打开的窗口中写入代码code，这样就实现了运行代码功能。
+        newwin.document.close();
+    }</script>
 </pre></span></li>
         <li><span>code</span></li>
     </ul>
 </li>
 <li>
-    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_4.png"></div></span>
+    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
+                                            src="/yupan/images/case_4.png"></div></span>
     <ul>
         <li><span>图片</span></li>
         <li><span>code</span></li>
     </ul>
 </li>
 <li>
-    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_5.png"></div></span>
+    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
+                                            src="/yupan/images/case_5.png"></div></span>
     <ul>
         <li><span>图片</span></li>
         <li><span>code</span></li>
     </ul>
 </li>
 <li>
-    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_7.png"></div></span>
+    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
+                                            src="/yupan/images/case_7.png"></div></span>
     <ul>
         <li><span>图片</span></li>
         <li><span>code</span></li>
@@ -513,14 +559,11 @@ margin-right: 1px;
                 <a href="http://www.imooc.com/" target="_blank">慕课网</a></br>
                 <a href="http://www.zhufengpeixun.com/zhufengpeixun" target="_blank">珠峰培训</a></br>
                 <a href="http://note.youdao.com/?auto=1">有道云笔记</a></br>
-                <a href="http://www.crimx.com/2014/05/15/how-to-learn-javascript-properly/" target="_blank">正确学习JS</a></br>
+                <a href="http://www.crimx.com/2014/05/15/how-to-learn-javascript-properly/"
+                   target="_blank">正确学习JS</a></br>
                 <a href="http://eloquentjavascript.net/01_values.html">JS英文书</a></br>
-
                 <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
                 <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
-
-
-
             </li>
         </ul>
     </section>
@@ -528,15 +571,12 @@ margin-right: 1px;
         <h1>HTML5/CSS3 <img src="../images/3.gif"></h1>
         <ul id="recent_posts">
             <li class="post">
-                <a href="http://www.shejidaren.com/tag/html5">一个很赞的博客</a></br>
+                <a href="http://weibo.com/1757085861/profile?rightmod=1&wvr=6&mod=personinfo">Me微博</a></br>
                 <a href="http://html5demos.com/" target="_blank">HTML5简单demo</a></br>
                 <a href="http://html5doctor.com/designing-a-blog-with-html5/">HTML5简介架构</a></br>
-
                 <a href="http://alistapart.com/article/semanticsinhtml5">HTML5语义</a></br>
                 <a href="http://caniuse.com/#info_news" target="_blank">HTML5查兼容性</a></br>
                 <a href="http://html5doctor.com/designing-a-blog-with-html5/">HTML5简介架构</a></br>
-
-
             </li>
         </ul>
     </section>
@@ -557,34 +597,22 @@ margin-right: 1px;
             </li>
         </ul>
     </section>
-
     <section>
         <h1>技术问题 <img src="../images/3.gif"></h1>
         <ul id="recent_posts">
-
             <li class="post">
                 <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
                 <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
                 <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
-
             </li>
         </ul>
     </section>
-
     <section>
         <h1>网页设计类</h1>
-        <a href="http://bm.straightline.jp/" >日本网页设计</a><br/>
-        <!--<a href="http://iphone.reeoo.com/" >APP设计</a></br>-->
-        <a href="http://www.mobile-patterns.com/" >APP原型设计</a></br>
-        <a href="http://www.ui.cn/detail/18875.html" >UI设计比较赞</a></br>
-        <!--<a href="http://littlebigdetails.com/" >UI设计</a></br>-->
-        <!--<a href="http://capptivate.co/" >UI设计</a></br>-->
-        <!--<a href="http://pttrns.com/" >UI设计</a></br>-->
-        <!--<a href="http://www.lovelyui.com/" >UI设计</a></br>-->
-        <!--<a href="http://capptivate.co/" >UI设计</a></br>-->
-        <!--<a href="http://pttrns.com/" >UI设计</a></br>-->
-        <a href="https://unsplash.com/" >国外图片欣赏</a></br>
-
+        <a href="http://bm.straightline.jp/">日本网页设计</a><br/>
+        <a href="http://www.mobile-patterns.com/">APP原型设计</a></br>
+        <a href="http://www.ui.cn/detail/18875.html">UI设计比较赞</a></br>
+        <a href="https://unsplash.com/">国外图片欣赏</a></br>
     </section>
 
 
