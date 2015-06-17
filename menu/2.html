@@ -1,0 +1,135 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head lang="en">-->
+<!--<meta charset="UTF-8">-->
+<!--<title>this关键字</title>-->
+<!--<link type="text/css" rel="stylesheet" href="menu.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="div1">-->
+<!--<img aabbcc="123" src="../images/1.jpg"/>-->
+<!--</div>-->
+<!--<a onclick="changeImg(this);return false;" href="http://www.imooc.com/learn/40">1</a>-->
+<!--<a onclick="changeImg(this)" href="#">2</a>-->
+<!--<a onclick="changeImg(this)" href="#">3</a>-->
+<!--<a onclick="changeImg(this)" href="#">4</a>-->
+<!--</body>-->
+<!--</html>-->
+<!--<script>-->
+<!--function changeImg(ele) {-->
+<!--var oImg = document.getElementById("div1").getElementsByTagName("img").item(0);-->
+<!--oImg.src = '../images/' + ele.innerHTML + '.jpg';-->
+<!--}-->
+<!--</script>方法一-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head lang="en">-->
+<!--<meta charset="UTF-8">-->
+<!--<title>this关键字</title>-->
+<!--<link type="text/css" rel="stylesheet" href="menu.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="div1">-->
+<!--<img aabbcc="123" src="../images/1.jpg"/>-->
+<!--</div>-->
+<!--<a  href="#">1</a>-->
+<!--<a  href="#">2</a>-->
+<!--<a  href="#">3</a>-->
+<!--<a  href="#">4</a>-->
+<!--</body>-->
+<!--</html>-->
+<!--<script>-->
+<!--function changeImg(ele) {-->
+<!--var oImg = document.getElementById("div1").getElementsByTagName("img").item(0);-->
+<!--oImg.src = '../images/' + ele.innerHTML + '.jpg';-->
+<!--}-->
+<!--var oAs=document.getElementsByTagName("a");-->
+<!--for(var i=0;i<oAs.length;i++){-->
+<!--oAs.item(i).onclick=function(){-->
+<!--changeImg(this);-->
+<!--return false;-->
+
+<!--}-->
+<!--}-->
+<!--</script>-->
+
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>this关键字</title>
+    <link type="text/css" rel="stylesheet" href="menu.css">
+</head>
+<body>
+<div id="div2">
+    <img aabbcc="123" src="../images/1.jpg"/>
+</div>
+<a href="#">第一张</a>
+<a href="#">第二张</a>
+<a href="#">第三张</a>
+<a href="#">第四张</a>
+</body>
+</html>
+<script>
+
+    function changeImg() {
+        var oImg = document.getElementById("div2").getElementsByTagName("img").item(0);
+        oImg.src = '../images/' + (this.nIndex+1) + '.jpg';
+        return false;
+    }
+    window.onload = function () {
+        var oAs = document.getElementsByTagName("a");
+        for (var i = 0; i < oAs.length; i++) {
+            oAs.item(i).nIndex=i;
+            oAs.item(i).onclick = changeImg;
+        }
+        var num=1;
+        function autoChangeImg(){
+            var oImg=document.getElementById("div2").getElementsByTagName("img").item(0);
+            oImg.src='../images/'+(num++%4+1)+'.jpg';
+
+        }
+        window.setInterval(autoChangeImg,2000);
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

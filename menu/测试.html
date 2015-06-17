@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+    function fn(){
+        alert("fn");
+    }
+    var fn2=function (){
+        alert("fn2");
+    }
+    function add(){
+//arguments.length;
+//        arguments[0]
+        var ar=arguments;
+//        return n1+n2;
+        var count=null;
+        for(var i=0;i<ar.length;i++){
+            count+=ar[i];
+            count=count+ar[i];
+        }
+        return count;
+    }
+    var n=add(1,2,3,5,9);
+    alert(n);
+</script>
+
+</body>
+</html>

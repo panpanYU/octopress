@@ -7,7 +7,7 @@
 <html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octopress: Octopress Help</title>
+  <title>life</title>
   <meta name="author" content="Brandon Mathis">
 
 
@@ -71,6 +71,14 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet'
         type='text/css'>
 
+  <style type="text/css">
+    p{
+      font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #1863a1;
+      font-size: 14px;
+    }
+  </style>
+
 </head>
 
 <body class="collapse-sidebar">
@@ -79,7 +87,7 @@
   <hgroup>
     <h1><a href="#">    </a></h1>
 
-    <h2>penny</h2>
+    <h2></h2>
 
   </hgroup>
 
@@ -112,72 +120,27 @@
   <div id="content">
     <div>
       <article>
-        <header>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+        <p><img   style="box-shadow: none;display: inline;" src="../images/kiss.gif " alt="kiss"/> </p><br/>
+          <p>Smiles to me。</p>
+        <p>I am a lunatic</p>
+        <p> <img   style="box-shadow: none;display: inline;" src="../images/face.gif " alt="face"/> </p>
+        <p>我爱美食、爱大笑、爱疯、爱闹、爱怀旧，也爱未来、爱看气质帅哥，更爱看气质美女,爱说自己不成熟，也爱评论人.</p>
+        <p>我勇敢我也害羞、我细心我也健忘、我沉默我也喋喋不休、我真诚我也不做作，我自信,我也自卑。</p>
+        <p>我不爱笑着哭，也不爱哭着笑，因为这样很死脸。但我爱假装一边哭一边笑。</p>
+        <p>我还比较有主见，有想法。但自己也会懒得想。</p>
+        <p>虽然好人不一定有好报，但还得要努力做个大好人。加油。</p>
+        <p>越努力越幸运！</p>
+        <br/><br/><br/>
 
 
-          <h2 class="entry-title">
-            <ul>
-              <li><a name="预解释"> Javascript基础知识汇总 </a></li>
-              <li class="right"><a onclick="fn()" id="hide">>>></a></li>
-            </ul>
-          </h2>
 
-
-        </header>
-
-        <ol id="hide_ol" style="display: none;">
-          <li><a href="#预解释">1. 预解释、闭包、this、面向对象</a></li>
-          <li><a href="#原型深入">2. 原型深入、call和apply应用、正则及应用</a></li>
-          <li><a href="#DOM盒子模型">3. DOM盒子模型、延迟加载、DOM库</a></li>
-          <li><a href="#jQuery原理">4. jQuery原理及应用、tween动画、轮播图</a></li>
-          <li><a href="#事件对象">5. 事件对象及兼容处理、事件传播、基础事件库</a></li>
-          <li><a href="#事件高级">6. 事件高级、设计模式、拖拽、碰撞检测</a></li>
-          <li><a href="#ajax">7. ajax、jsonp跨域、基本的nodejs讲解</a></li>
-          <li><a href="#移动端">8. 移动端HTML3+CSS3、zepto</a></li>
-          <li><a href="#移动端事件">9. 移动端事件、长用框架、音视频、离线本地存储等新兴的API</a></li>
-          <li><a href="#总结">10. 总结</a></li>
-          </li>
-        </ol>
-
-        <script type="text/javascript">
-
-          var oHide = document.getElementById("hide");
-          oHide.onclick = function fn() {
-            if (hide_ol.style.display == "block") {
-              document.getElementById("hide_ol").style.display = "none";
-              oHide.innerHTML = ">>>";
-            } else {
-              document.getElementById("hide_ol").style.display = "block";
-              oHide.innerHTML = "❤️";
-            }
-          }
-
-
-        </script>
-
-        <!--111111111111111111111-->
-
-        <h2><a name="预解释">1. 预解释、闭包、this、面向对象</a></h2>
-
-        <p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
-
-
-        <ol>
-          <li><strong>预解释:</strong> 在当前作用域下，代码执行之前，首先把所有带<code>var</code>和<code>function</code>关键字的变量（函数）提前的
-            声明或者定义。
-          </li>
-          <li><strong>闭包:</strong> 在函数执行时形成一个私有作用域，来保护里面的私有变量不受外界干扰，我们把这种机制叫做闭包。（闭包不是一种
-            形式，而是一种机制。）
-          </li>
-          <li><strong>this关键字:</strong> this是当前行为的主体，上下文是活动的范围。this是谁，和在哪定义的没有关系，和在在哪执行也没有关系，
-            只有当函数执行的主体有关系，怎么看执行的主体：方法名（）看方法名之前有没有“.”，有的话“.”前面是谁，this就是谁，没有的话是window。
-            给元素绑定事件，函数中的this是这个元素。
-          </li>
-          <li><strong>面向对象:</strong> 类的继承封装，通过类创造一个实例，继承所有属性名和属性值。（模块化开发：1.单例模式；2.工厂模式）
-          </li>
-          </li>
-          <li><a>More</a></li>
-        </ol>
       </article>
 
     </div>
@@ -237,6 +200,7 @@
             <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
             <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
             <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
+            <a href="http://www.52rzb.com/norm/index.html/" target="_blank">百度项目开发规范</a></br>
           </li>
         </ul>
       </section>
@@ -255,7 +219,7 @@
 </div>
 <footer><p>
   Copyright &copy; 2015 - pennyYU -
-  <span class="credit">Powered by <a href="http://octopress.org">blog</a></span>
+  <span class="credit">Powered by <a href="https://github.com/panpanYU">blog</a></span>
 </p>
 
 </footer>

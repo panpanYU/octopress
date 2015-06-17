@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>this关键字</title>
+    <link type="text/css" rel="stylesheet" href="menu.css">
+</head>
+<body>
+<div class="content">
+    <div><h1><a title="this关键字" alt=""  id="btn1">this关键字code-1</a></h1></div>
+    <div id="div1" style="display: none;">
+        <textarea>
+            <!DOCTYPE html>
+            <html>
+            <head lang="en">
+                <title>this关键字</title>
+                <link type="text/css" rel="stylesheet" href="menu.css">
+            </head>
+            <body>
+            <div class="content">
+                <ul id="caseOne">
+                    <li>
+                        <a href="../images/1.jpg" title="A 1 display"> one</a>
+                    </li>
+                    <li>
+                        <a href="../images/2.jpg" title="A 2 display"> two</a>
+                    </li>
+                    <li>
+                        <a href="../images/3.jpg" title="A 2 display"> three</a>
+                    </li>
+                    <li>
+                        <a href="../images/4.jpg" title="A 2 display"> four</a>
+                    </li>
+                </ul>
+                <img id="placeholder" src="../images/menu.jpg" alt="my images">
+
+                <p id="description">Choose an image</p>
+            </div>
+            <script>
+                function changeImg() {
+                    document.getElementById("placeholder").src = this.href;
+                    return false;
+                }
+                var oAs = document.getElementById("caseOne").getElementsByTagName("a");
+                ;
+                for (var i = 0; i < oAs.length; i++) {
+                    oAs.item(i).onclick = changeImg;
+                }
+            </script>
+            </body></html>
+        </textarea></br>
+        <input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])"
+               value="运行代码"/>
+        <script>
+            function runCode(obj)  //定义一个运行代码的函数，
+            {
+                var code = obj.value;//即要运行的代码。
+                var newwin = window.open('', '', '');  //打开一个窗口并赋给变量newwin。
+                newwin.opener = null // 防止代码对论谈页面修改
+                newwin.document.write(code);  //向这个打开的窗口中写入代码code，这样就实现了运行代码功能。
+                newwin.document.close();
+            }</script>
+
+    </div>
+    <ul id="caseOne">
+        <li>
+            <a href="../images/1.jpg" title="A 1 display"> one</a>
+        </li>
+        <li>
+            <a href="../images/2.jpg" title="A 2 display"> two</a>
+        </li>
+        <li>
+            <a href="../images/3.jpg" title="A 3 display"> three</a>
+        </li>
+        <li>
+            <a href="../images/4.jpg" title="A 4 display"> four</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="../images/menu.jpg" alt="my images">
+
+    <p id="description">Choose an image</p>
+
+</div>
+</body>
+<script type="text/javascript">
+    var oDiv = document.getElementById("div1");//赋值给oDiv
+    document.onclick = function (e) {//给oDiv绑定一个点击事件
+        //事件对象e，在不同浏览器兼容不一样
+        e = e || window.event;//事件对象本身
+        // （其它浏览器点击的时候，把事件对象当做参数传递过来，在ie浏览器中，这个event变量是空，它会在全局window上
+        var tar = e.target || e.srcElement;//事件源，就是当前对象发生在谁身上
+        if (tar.id == "btn1") {
+            if (oDiv.style.display == "block") {
+                oDiv.style.display = "none";
+            } else {
+                oDiv.style.display = "block";
+            }
+        } else if (tar.id == "div1") {
+
+        } else {
+            oDiv.style.display = "none";
+        }
+    }
+
+</script>
+</html>
+<script>
+    function changeImg() {
+        document.getElementById("placeholder").src = this.href;
+        return false;
+    }
+    var oAs = document.getElementById("caseOne").getElementsByTagName("a");
+
+    for (var i = 0; i < oAs.length; i++) {
+        oAs.item(i).onclick = changeImg;
+    }
+</script>

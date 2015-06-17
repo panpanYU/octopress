@@ -7,7 +7,7 @@
 <html class="no-js" lang="en"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Octopress: Octopress Help</title>
+    <title>faq</title>
     <meta name="author" content="Brandon Mathis">
 
 
@@ -70,7 +70,11 @@
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet'
           type='text/css'>
-
+    <style type="text/css">
+        h3{
+          height: 16px;
+        }
+    </style>
 </head>
 
 <body class="collapse-sidebar">
@@ -79,7 +83,7 @@
     <hgroup>
         <h1><a href="#">    </a></h1>
 
-        <h2>penny</h2>
+        <h2></h2>
 
     </hgroup>
 
@@ -90,7 +94,7 @@
         <li><a href="#" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
 
     </ul>
-    <form method="get" id="searchform" action="http://google.com/search" >
+    <form method="get" id="searchform" action="http://google.com/search">
         <fieldset role="site-search">
             <input type="hidden" name="q" value="site:octopress.org"/>
             <input class="search" type="text" name="q" results="0" placeholder="Search" id="s"/>
@@ -107,7 +111,6 @@
 
 </nav>
 
-
 <div id="main">
     <div id="content">
         <div>
@@ -117,71 +120,181 @@
 
                     <h2 class="entry-title">
                         <ul>
-                            <li><a name="预解释"> Javascript基础知识汇总 </a></li>
-                            <li class="right"><a onclick="fn()" id="hide">>>></a></li>
+                            <li><a name="预解释">Yahoo web性能优化35条黄金法则</a></li>
                         </ul>
                     </h2>
 
 
                 </header>
+                <ol></ol>
+                <h2 ><a></a></h2>
 
-                <ol id="hide_ol" style="display: none;">
-                    <li><a href="#预解释">1. 预解释、闭包、this、面向对象</a></li>
-                    <li><a href="#原型深入">2. 原型深入、call和apply应用、正则及应用</a></li>
-                    <li><a href="#DOM盒子模型">3. DOM盒子模型、延迟加载、DOM库</a></li>
-                    <li><a href="#jQuery原理">4. jQuery原理及应用、tween动画、轮播图</a></li>
-                    <li><a href="#事件对象">5. 事件对象及兼容处理、事件传播、基础事件库</a></li>
-                    <li><a href="#事件高级">6. 事件高级、设计模式、拖拽、碰撞检测</a></li>
-                    <li><a href="#ajax">7. ajax、jsonp跨域、基本的nodejs讲解</a></li>
-                    <li><a href="#移动端">8. 移动端HTML3+CSS3、zepto</a></li>
-                    <li><a href="#移动端事件">9. 移动端事件、长用框架、音视频、离线本地存储等新兴的API</a></li>
-                    <li><a href="#总结">10. 总结</a></li>
-                    </li>
-                </ol>
-
-                <script type="text/javascript">
-
-                    var oHide = document.getElementById("hide");
-                    oHide.onclick = function fn() {
-                        if (hide_ol.style.display == "block") {
-                            document.getElementById("hide_ol").style.display = "none";
-                            oHide.innerHTML = ">>>";
-                        } else {
-                            document.getElementById("hide_ol").style.display = "block";
-                            oHide.innerHTML = "❤️";
-                        }
-                    }
+                <p>用户越来越注重用户体验，但用户体验的前提就是网站的访问速度。这里我们引用来自yahoo前端性能团队总结的web性能优化35条黄金法则。</p>
 
 
-                </script>
+        <img style="box-shadow: none" src="http://www.wfuns.com/wp-content/uploads/2015/02/yahoo.gif"
+                      alt="Yahoo web能优化35条黄金法则" width="370" height="224">
 
-                <!--111111111111111111111-->
+        <h2><a>一，网页内容</a></h2>
+        <h3>1, 减少http请求次数</h3>
+        <p>合并图片（如css sprites，内置图片使用数据）、合并CSS、JS，这一点很重要，但是要考虑合并后的文件体积。</p><br/>
 
-                <h2><a name="预解释">1. 预解释、闭包、this、面向对象</a></h2>
+        <h3>2, 减少DNS查询次数</h3>
+        <p>我们需要权衡减少 DNS查找次数和保持较高程度并行下载两者之间的关系。</p><br/>
 
-                <p class="star_one">难度系数：<span id="star">★★★☆☆</span></p>
+        <h3>3, 避免页面跳转</h3>
+        <p>为了确保“后退”按钮可以正确地使用，使用标准的 3XXHTTP状态代码；同域中注意避免反斜杠 “/” 的跳转；
+            跨域使用 Alias或者 mod_rewirte建立 CNAME（保存一个域名和另外一个域名之间关系的DNS记录）</p><br/>
+
+        <h3>4, 缓存Ajax</h3>
+        <p>利用时间戳，更精巧的实现响应可缓存与服务器数据同步更新。</p><br/>
+
+        <h3>1, 减少http请求次数</h3>
+        <p>合并图片（如css sprites，内置图片使用数据）、合并CSS、JS，这一点很重要，但是要考虑合并后的文件体积。</p><br/>
+
+        <h3>5, 延迟加载</h3>
+        <p>确定页面运行正常后，再加载脚本来实现如拖放和动画，或者是隐藏部分的内容以及折叠内容等。</p><br/>
+
+        <h3>6, 提前加载</h3>
+        <p>关注下无条件加载，有条件加载和有预期的加载。</p><br/>
+
+        <h3>7, 减少DOM元素数量</h3>
+        <p>使用更适合或者在语意是更贴切的标签，要考虑大量DOM元素中循环的性能开销。</p><br/>
+
+        <h3>8, 根据域名划分内容</h3>
+        <p>很显然， 是最大限度地实现平行下载</p><br/>
+
+        <h3>9, 减少iframe数量</h3>
+        <p>考虑即使内容为空，加载也需要时间，会阻止页面加载，没有语意，注意iframe相对于其他DOM元素高出1-2个数量级的开销，
+            它会在典型方式下阻塞onload事件，IE和Firefox中主页面样式表会阻塞它的下载。</p><br/>
+
+        <h3>10, 避免404</h3>
+        <p>HTTP请求时间消耗是很大的，有些站点把404错误响应页面改为“你是不是要找***”，这虽然改进了用户体验但是同样也会浪费服务器资源
+            （如数据库等）。最糟糕的情况是指向外部 JavaScript的链接出现问题并返回404代码。首先，这种加载会破坏并行加载；其次浏览器
+            会把试图在返回的404响应内容中找到可能有用的部分当作JavaScript代码来执行。</p><br/>
+
+       <h2><a>二，服务器</a></h2>
+        <h3>11, 使用 (内容分发网络) CDN</h3>
+        <p>这里可以关注CDN的三类实现：镜像、高速缓存、专线，以及智能路由器和负载均衡；</p><br/>
+
+        <h3>12, 添加Expires 或Cache-Control报文头</h3>
+        <p>区分静态内容和动态内容，避免以后页面访问中不必要的HTTP请求。</p><br/>
+
+        <h3>13, Gzip压缩传输文件</h3>
+        <p>Gzip压缩所有可能的文件类型以来减少文件体积</p><br/>
+
+        <h3>14, 配置ETags</h3>
+        <p>Entity tags（ETags）（实体标签）是web服务器和浏览器用于判断浏览器缓存中的内容和服务器中的原始内容是否匹配的一种机制
+            （“实体”就是所说的“内 容”，包括图片、脚本、样式表等），是比last-modified date更更加灵活的机制，单位时间内文件被修过多次，
+            Etag可以综合Inode(文件的索引节点(inode)数)，MTime(修改时间)和Size来精准的进行判断，避开UNIX记录MTime只能精确到秒的问题。
+            服务器集群使用，可取后两个参数。使用ETags减少Web应用带宽和负载。</p><br/>
+
+        <h3>15, 尽早flush输出</h3>
+        <p>尤其对于css，js文件的并行下载更有意义</p><br/>
+
+        <h3>16, 使用GET Ajax请求</h3>
+        <p>当使用XMLHttpRequest时，浏览器中的POST方法是一个“两步走”的过程：首先发送文件头，然后才发送数据。在url小于2K时使用GET获取数据时更加有意义。</p><br/>
+
+        <h3>17, 避免空的src</h3>
+        <p>空的src仍然会使浏览器发送请求到服务器，这样完全是浪费时间，而且浪费服务器的资源。尤其是你的网站每天被很多人访问的时候，
+            这种空请求造成的伤害不容忽略。留意具有这两个属性的标签如link，script，img，iframe等；</p><br/>
+
+        <h2><a>三，Cookie</a></h2>
+        <h3>18, 减少Cookie大小</h3>
+        <p>去除不必要的coockie，使coockie体积尽量小以减少对用户响应的影响
+            注意在适应级别的域名上设置coockie以便使子域名不受影响
+            设置合理的过期时间。较早地Expire时间和不要过早去清除coockie，都会改善用户的响应时间。
+
+        </p><br/>
+
+        <h3>19, 页面内容使用无cookie域名</h3>
+        <p>确定对于静态内容的请求是无coockie的请求。创建一个子域名并用他来存放所有静态内容。</p><br/>
+
+        <h2><a>四，CSS</a></h2>
+        <h3>20, 将样式表置顶</h3>
+        <p>实现页面有秩序地加载，这对于拥有较多内容的页面和网速较慢的用户来说更为重要，同时，HTML规范清楚指出样式表要放包含在页面的区域内；</p><br/>
+
+        <h3>21, 避免CSS表达式</h3>
+        <p>页面显示和缩放，滚动、乃至移动鼠标时，CSS表达式的计算频率是我们要关注的。可以考虑一次性的表达式或者使用事件句柄来代替CSS表达式。
+
+        </p><br/>
+
+        <h3>22, 用代替@import</h3>
+        <p>使用@import相当于将css放在网页内容底部，因此最好不要使用它。</p><br/>
+
+        <h3>23, 避免使用Filters</h3>
+        <p>AlphaImageLoad也是IE5.5 – IE8中支持，这种滤镜的使用会导致图片在下载的时候阻塞网页绘制，另外使用这种滤镜会导致内存使用量的问题。
+            避免使用AlphaImageLoader的最好方法就是使用PNG透明格式图片来代替，这种格式能在IE中很好地工作。如果你确实需要使用 AlphaImageLoader，请使用下划线_filter。</p><br/>
+
+        <h2><a>五，Javascript</a></h2>
+        <h3>24, 将脚本置底</h3>
+        <p>HTTP/1.1 规范建议，浏览器每个主机名的并行下载内容不超过两个，而问题在于脚本阻止了页面的平行下载，即便是主机名不相同</p><br/>
 
 
-                <ol>
-                    <li><strong>预解释:</strong> 在当前作用域下，代码执行之前，首先把所有带<code>var</code>和<code>function</code>关键字的变量（函数）提前的
-                        声明或者定义。
-                    </li>
-                    <li><strong>闭包:</strong> 在函数执行时形成一个私有作用域，来保护里面的私有变量不受外界干扰，我们把这种机制叫做闭包。（闭包不是一种
-                        形式，而是一种机制。）
-                    </li>
-                    <li><strong>this关键字:</strong> this是当前行为的主体，上下文是活动的范围。this是谁，和在哪定义的没有关系，和在在哪执行也没有关系，
-                        只有当函数执行的主体有关系，怎么看执行的主体：方法名（）看方法名之前有没有“.”，有的话“.”前面是谁，this就是谁，没有的话是window。
-                        给元素绑定事件，函数中的this是这个元素。
-                    </li>
-                    <li><strong>面向对象:</strong> 类的继承封装，通过类创造一个实例，继承所有属性名和属性值。（模块化开发：1.单例模式；2.工厂模式）
-                    </li>
-                    </li>
-                    <li><a>More</a></li>
-                </ol>
+        <h3>25, 使用外部Javascirpt和CSS文件</h3>
+        <p>我们需要权衡内置代码带来的HTTP请求减少与通过使用外部文件进行缓存带来的好处的折中点。</p><br/>
+
+
+        <h3>26, 精简Javascript和CSS</h3>
+        <p>目的就是减少下载的文件体积，可考虑使用压缩工具JSMin和YUI Compressor等</p><br/>
+
+        <h3>27, 去除重复脚本</h3>
+        <p>重复调用脚本，除了增加额外的HTTP请求外，多次运算也会浪费时间。在IE和Firefox中不管脚本是否可缓存，它们都存在重复运算JavaScript的问题。</p><br/>
+
+        <h3>28, 减少DOM访问</h3>
+        <p>通过Javascript访问DOM元素没有我们想象中快，元素多的网页尤其慢，对于Javascript对DOM的访问我们要注意
+        <ul>
+            <li>缓存已经访问过的元素</li>
+            <li>Offline更新节点然后再加回DOM Tree</li>
+            <li>避免通过Javascript修复layout</li>
+        </ul></p><br/>
+
+        <h3>29, 使用智能事件处理</h3>
+        <p>有时候我们会感觉到页面反应迟钝，这是因为DOM树元素中附加了过多的事件句柄并且些事件句病被频繁地触发。这就是为什么说使用event delegation
+            （事件代理）是一种好方法了。如果你在一个div中有10个按钮，你只需要在div上附加一次事件句柄就可以了，而不用去为每一个按 钮增加一个句柄。
+            事件冒泡时你可以捕捉到事件并判断出是哪个事件发出的。
+            你同样也不用为了操作DOM树而等待onload事件的发生。你需要做的就是等待树结构中你要访问的元素出现。你也不用等待所有图像都加载完毕。
+            你可能会希望用DOMContentLoaded事件来代替 事件应用程序中的onAvailable方法。
+
+        </p><br/>
+
+        <h2><a>六，图片</a></h2>
+        <h3>30, 优化图像</h3>
+        <ul><li>检查GIF图片中图像颜色的数量是否和调色板规格一致。如果你发现图片中只用到了4种颜色，而在调色板的中显示的256色的颜色槽，那么这张图片就还有压缩的空间。可以使用imagemagick检查：
+            identify -verbose image.gif</li>
+        <li>尝试把GIF格式转换成PNG格式，看看是否节省空间。大多数情况下是可以压缩的。下面这条简单的命令可以安全地把GIF格式转换为PNG格式：<br/>
+            convert image.gif image.png</li>
+        <li>在所有的PNG图片上运行pngcrush（或者其它PNG优化工具）。例如：
+            pngcrush image.png -rem alla -reduce -brute result.png</li>
+        <li>在所有的JPEG图片上运行jpegtran。这个工具可以对图片中的出现的锯齿等做无损操作，同时它还可以用于优化和清除图片中的注释以及其它无用信息<br/>
+            jpegtran -copy none -optimize -perfect src.jpg dest.jpg</li></ul><br/>
+
+
+        <h3>31, 优化CSS Sprite</h3>
+        <p>Spirite中水平排列图片，垂直排列会增加文件大小;<br/>
+            Spirite中把颜色较近的组合在一起可以降低颜色数，理想状况是低于256色以便适用PNG8格式；<br/>
+            不要在Spirite的图像中间留有较大空隙。这虽然不大会增加文件大小,但对于用户代理来说它需要更少的内存来把图片解压为像素地图。100×100的图片为1万像素，1000×1000就是100万像素。</p><br/>
+
+        <h3>32, 不要在HTML中缩放图片</h3>
+        <p>不要在HTML中使用比实际需要大很多的图片进行尺寸压缩。如果你需要100×100像素的图片，不要把一个800×800像素的图片强制缩小多100×100像素使用。</p><br/>
+
+        <h3>33, 使用小且可缓存的favicon.ico</h3>
+        <p>favicon.ico是位于服务器根目录下的一个图片文件。它是必定存在的，因为即使你不关心它是否有用，浏览器也会对它发出请求，因此最好不要返回一 个404 Not Found的响应。由于是在同一台服务器上，它每被请求一次coockie就会被发送一次。这个图片文件还会影响下载顺序，例如在IE中当你在 onload中请求额外的文件时，favicon会在这些额外内容被加载前下载。
+            因此，为了减少favicon.ico带来的弊端，要做到：<br/>
+            文件尽量地小，最好小于1K<br/>
+            在适当的时候（也就是你不要打算再换favicon.ico的时候，因为更换新文件时不能对它进行重命名）为它设置Expires文件头。你可以很安全地 把Expires文件头设置为未来的几个月。你可以通过核对当前favicon.ico的上次编辑时间来作出判断。
+            <br/>Imagemagick可以帮你创建小巧的favicon。</p><br/>
+
+        <h2><a>七，移动客户端</a></h2>
+        <h3>34, 保持单个内容小于25KB</h3>
+        <p>因为iPhone不能缓存大于25K的文件。注意这里指的是解压缩后的大小。由于单纯gizp压缩可能达不要求，因此精简文件就显得十分重 要</p><br/>
+
+        <h3>35, 打包组建成符合文档</h3>
+        <p>页面内容打包成复合文本就如同带有多附件的Email，它能够使你在一个HTTP请求中取得多个组件（切记：HTTP请求是很奢侈的）。
+            当你使用这条规 则时，首先要确定用户代理是否支持（iPhone就不支持）。</p><br/>
             </article>
 
         </div>
-
         <aside role=sidebar>
             <section>
                 <h1>JS学习参考网站 <img src="../images/3.gif"></h1>
@@ -237,6 +350,7 @@
                         <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
                         <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
                         <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
+                        <a href="http://www.52rzb.com/norm/index.html/" target="_blank">百度项目开发规范</a></br>
                     </li>
                 </ul>
             </section>
@@ -255,12 +369,10 @@
 </div>
 <footer><p>
     Copyright &copy; 2015 - pennyYU -
-    <span class="credit">Powered by <a href="http://octopress.org">blog</a></span>
+    <span class="credit">Powered by <a href="https://github.com/panpanYU">blog</a></span>
 </p>
 
 </footer>
-
-
 
 
 <div id="fukidashiBox">

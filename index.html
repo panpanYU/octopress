@@ -7,7 +7,7 @@
 <html class="no-js" lang="en"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>余攀博客</title>
+    <title>penny'blog</title>
     <meta name="author" content="Brandon Mathis">
     <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True">
@@ -51,6 +51,7 @@
             twitterWidgets.async = true;
             twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
             document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+
         })();
     </script>
     <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
@@ -62,7 +63,7 @@
 <body>
 <header>
     <hgroup>
-        <h1><a href="/octopress/">爱技术 爱设计</a></h1>
+        <h1><a href="">爱技术 爱设计</a></h1>
 
         <h2>On the road, the pursuit of good things</h2>
     </hgroup>
@@ -96,46 +97,45 @@
 
     <h2 class="entry-title">
         <ul>
-            <li><a name="预解释"> Javascript基础知识汇总 </a></li>
-            <li class="right"><a onclick="fn()" id="hide">>>></a></li>
+            <li><a> 处理大数据绑定 </a></li>
         </ul>
     </h2>
 
 
 </header>
 
-<ol id="hide_ol" style="display: none;">
-    <li><a href="#预解释">1. 预解释、闭包、this、面向对象</a></li>
-    <li><a href="#原型深入">2. 原型深入、call和apply应用、正则及应用</a></li>
-    <li><a href="#DOM盒子模型">3. DOM盒子模型、延迟加载、DOM库</a></li>
-    <li><a href="#jQuery原理">4. jQuery原理及应用、tween动画、轮播图</a></li>
-    <li><a href="#事件对象">5. 事件对象及兼容处理、事件传播、基础事件库</a></li>
-    <li><a href="#事件高级">6. 事件高级、设计模式、拖拽、碰撞检测</a></li>
-    <li><a href="#ajax">7. ajax、jsonp跨域、基本的nodejs讲解</a></li>
-    <li><a href="#移动端">8. 移动端HTML3+CSS3、zepto</a></li>
-    <li><a href="#移动端事件">9. 移动端事件、长用框架、音视频、离线本地存储等新兴的API</a></li>
-    <li><a href="#总结">10. 总结</a></li>
-    </li>
+<ol>
+
 </ol>
 
-<script type="text/javascript">
+<h2><a >文档碎片(JS性能优化)</a></h2>
 
-    var oHide = document.getElementById("hide");
-    oHide.onclick = function fn() {
-        if (hide_ol.style.display == "block") {
-            document.getElementById("hide_ol").style.display = "none";
-            oHide.innerHTML = ">>>";
-        } else {
-            document.getElementById("hide_ol").style.display = "block";
-            oHide.innerHTML = "❤️";
-        }
-    }
-</script>
+    <ol>
+        <p>批量创建很多的元素，但是病并不是创建一个添加一个，而是先把这些都放在一个容器中，最后把容器中的内容一次性给我们的页面添加</p>
+        <li>var fra=document.createDocumentFragment();</li>
+        <li>for(var i=0;i<1000;i++){</li>
+        <li>var oLi=document.createElement("li");</li>
+        <li>oLi=document.innerHTML=i+1;</li>
+        <li>oLi.onclick=function(){</li>
+        <li>alert(this.innerHTML);</li>
+        <li>}</li>
+        <li>fra.appendChild(oLi);</li>
+        <li>}</li>
+        <li>oUl.appendChild(fra);</li>
+    </ol>
+    <br/>
+    <h2><a >数据分批加载：异步延迟加载</a></h2>
+    <ol>
+
+        类似于微博这样的，数据异步加载：开始只加载少量的，当我们用户手动滚动到某个区域的时候，在加载新的。<br/>
+        第一次进来：创建一个ul，里面增加200个li（innerHTML.文档碎片）<br/>
+        第二次加载：如果你用的是innerHTML放松操作的，一定不要在原有的ul下面添加，我们从新创建一个ul，然后把接下来的200条添加到这个ul中，
+            为了不影响之前的那个200条数据
+        </p>
+
+    </ol>
 
 
-<h2><a name="总结">10. 总结</a></h2>
-
-<p class="star_one">学习情况：<span id="star">★★★☆☆</span></p>
 
 
 </article>
@@ -197,6 +197,7 @@
                     <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
                     <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
                     <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
+                    <a href="http://www.52rzb.com/norm/index.html/" target="_blank">百度项目开发规范</a></br>
                 </li>
             </ul>
         </section>
@@ -216,7 +217,7 @@
 </div>
 <footer><p>
     Copyright &copy; 2015 - pennyYU -
-    <span class="credit">Powered by <a href="http://octopress.org">Github</a></span>
+    <span class="credit">Powered by <a href="https://github.com/panpanYU">Github</a></span>
 </p>
 
 </footer>

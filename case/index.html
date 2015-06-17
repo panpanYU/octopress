@@ -160,9 +160,9 @@
 
 <header>
     <hgroup>
-        <h1><a href="#">爱就坚强不就就疯狂</a></h1>
+        <h1><a href="#"> </a></h1>
 
-        <h2>爱就坚强不就就疯狂</h2>
+        <h2></h2>
 
     </hgroup>
 
@@ -325,162 +325,47 @@
     <ul>
         <li><span><pre class="intro">
 <textarea class="codeST">
-    <!doctype html>
+    <!DOCTYPE html>
     <html>
-    <head>
-        <meta charset="utf-8">
-        <title>无标题文档</title>
-        <style type="text/css">
-            ul, li {
-                list-style: none;
-            }
-
-            li {
-                margin-top: 5px;
-            }
-
-            .end {
-                background: #CCC;
-            }
-
-            .close {
-                background: #3F9
-            }
-
-            .end::before {
-                content: "O";
-                font-size: 24px;
-            }
-
-            .open::before {
-                content: "-";
-                font-size: 24px;
-                color: red;
-            }
-
-            .close::before {
-                content: "+";
-                font-size: 24px;
-                color: green;
-            }
-
-        </style>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>this关键字</title>
+        <link type="text/css" rel="stylesheet" href="menu.css">
     </head>
-
     <body>
-    <ul id="menu">
-        <li>
-            <span>第一级一项</span>
-            <ul>
-                <li><span>第二级第一项</span></li>
-                <li><span>第二级第二项</span>
-                    <ul>
-                        <li><span>第三级第一项</span></li>
-                        <li><span>第三级第二项</span></li>
-                        <li><span>第三级第三项</span></li>
-                        <li><span>第三级第四项</span>
-                            <ul>
-                                <li><span>第四级第一项</span></li>
-                                <li><span>第四级第二项</span></li>
-                                <li><span>第四级第三项</span></li>
-                                <li><span>第四级第四项</span></li>
-                            </ul>
-
-                        </li>
-                    </ul>
-                </li>
-                <li><span>第二级第三项</span></li>
-                <li><span>第二级第四项</span></li>
-            </ul>
-        </li>
-        <li><span>第一级二项</span>
-            <ul>
-                <li><span>第二级第一项</span></li>
-                <li><span>第二级第二项</span>
-                    <ul>
-                        <li><span>第三级第一项</span></li>
-                        <li><span>第三级第二项</span></li>
-                        <li><span>第三级第三项</span></li>
-                        <li><span>第三级第四项</span>
-                            <ul>
-                                <li><span>第四级第一项</span></li>
-                                <li><span>第四级第二项</span></li>
-                                <li><span>第四级第三项</span></li>
-                                <li><span>第四级第四项</span></li>
-                            </ul>
-
-                        </li>
-                    </ul>
-                </li>
-                <li><span>第二级第三项</span></li>
-                <li><span>第二级第四项</span></li>
-            </ul>
-        </li>
-        <li><span>第一级三项</span></li>
-        <li><span>第一级四项</span>
-            <ul>
-                <li><span>第二级第一项</span></li>
-                <li><span>第二级第二项</span>
-                    <ul>
-                        <li><span>第三级第一项</span></li>
-                        <li><span>第三级第二项</span></li>
-                        <li><span>第三级第三项</span></li>
-                        <li><span>第三级第四项</span>
-                            <ul>
-                                <li><span>第四级第一项</span></li>
-                                <li><span>第四级第二项</span></li>
-                                <li><span>第四级第三项</span></li>
-                                <li><span>第四级第四项</span></li>
-                            </ul>
-
-                        </li>
-                    </ul>
-                </li>
-                <li><span>第二级第三项</span></li>
-                <li><span>第二级第四项</span></li>
-            </ul>
-        </li>
-        <li><span>第一级五项</span></li>
-    </ul>
+    <div id="div2">
+        <img aabbcc="123" src="../images/1.jpg"/>
+    </div>
+    <a href="#">第一张</a>
+    <a href="#">第二张</a>
+    <a href="#">第三张</a>
+    <a href="#">第四张</a>
     </body>
     </html>
     <script>
-        var oLis = document.getElementById("menu").getElementsByTagName(
-                "li");
-        for (var i = 0; i < oLis.length; i++) {
-            var oLi = oLis.item(i);
-            var oUls = oLi.getElementsByTagName("ul");
-            if (oUls.length) {
-                oLi.children[0].className = "close";
-                oLi.children[1].style.display = "none";
-            } else {
-                oLi.children[0].className = "end";
-            }
 
+        function changeImg() {
+            var oImg = document.getElementById("div2").getElementsByTagName("img").item(0);
+            oImg.src = '../images/' + (this.nIndex+1) + '.jpg';
+            return false;
         }
-        document.getElementById("menu").onclick = function (e) {
-            e = e || window.event;
-            var target = e.target || e.srcElement;
-            if (target.nodeName == "SPAN") {
-                target.nextElementSibling
-                var oUl = target.parentNode.children[1];
-
-                if (oUl)
-                    if (oUl.style.display == "none") {
-                        oUl.style.display = "block";
-                        target.className = "open";
-                    } else {
-                        //oUl.style.display="none";
-                        target.className = "close";
-                        var oUls = target.parentNode.getElementsByTagName("ul");
-                        for (var i = 0; i < oUls.length; i++) {
-                            oUls[i].style.display = "none";
-                            oUls[i].parentNode.children[0].className = "close";
-                        }
-                    }
+        window.onload = function () {
+            var oAs = document.getElementsByTagName("a");
+            for (var i = 0; i < oAs.length; i++) {
+                oAs.item(i).nIndex=i;
+                oAs.item(i).onclick = changeImg;
             }
+            var num=1;
+            function autoChangeImg(){
+                var oImg=document.getElementById("div2").getElementsByTagName("img").item(0);
+                oImg.src='../images/'+(num++%4+1)+'.jpg';
+
+            }
+            window.setInterval(autoChangeImg,2000);
         }
+
     </script>
+
 </textarea>
 <input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])" value="运行代码"/>
 <script>
@@ -498,35 +383,23 @@
     </ul>
 </li>
 <li>
-    <span><div class="course-list-img">
-        <img width="490" height="200" alt="SVG实现Tooltip气泡效果" src="/yupan/images/case_6.png"></div></span>
+    <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
+                                            src="/yupan/images/case_6.png"></div></span>
     <ul>
-        <li><span><pre class="intro">
-<textarea class="codeST">
-
-</textarea>
-<input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])" value="运行代码"/>
-<script>
-    function runCode(obj)  //定义一个运行代码的函数，
-    {
-        var code = obj.value;//即要运行的代码。
-        var newwin = window.open('', '', '');  //打开一个窗口并赋给变量newwin。
-        newwin.opener = null // 防止代码对论谈页面修改
-        newwin.document.write(code);  //向这个打开的窗口中写入代码code，这样就实现了运行代码功能。
-        newwin.document.close();
-    }</script>
-</pre></span></li>
-        <li><span>code</span></li>
+        <li><span></span></li>
+        <li><span></span></li>
     </ul>
 </li>
 <li>
     <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
                                             src="/yupan/images/case_4.png"></div></span>
     <ul>
-        <li><span>图片</span></li>
-        <li><span>code</span></li>
+        <li><span></span></li>
+        <li><span></span></li>
     </ul>
 </li>
+
+
 <li>
     <span><div class="course-list-img"><img width="490" height="200" alt="SVG实现Tooltip气泡效果"
                                             src="/yupan/images/case_5.png"></div></span>
@@ -604,6 +477,7 @@
                 <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
                 <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
                 <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
+                <a href="http://www.52rzb.com/norm/index.html/" target="_blank">百度项目开发规范</a></br>
             </li>
         </ul>
     </section>
@@ -623,7 +497,7 @@
 </div>
 <footer><p>
     Copyright &copy; 2015 - pennyYU -
-    <span class="credit">Powered by <a href="http://octopress.org">Github</a></span>
+    <span class="credit">Powered by <a href="https://github.com/panpanYU">Github</a></span>
 </p>
 
 </footer>

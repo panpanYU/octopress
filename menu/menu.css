@@ -1,0 +1,88 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+}
+input,button,select,textarea{outline:none;}
+
+
+ol, ul {
+    list-style: none;
+
+}
+
+ol, li, a {
+    text-decoration: none;
+
+}
+img{
+    border: none;
+}
+a {
+    color: #000;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+}
+a:visited a:active{
+
+}
+a:hover {
+    cursor: pointer;
+    color: #ff9b08;
+    transition: 0.4s;
+
+}
+.left{float: left}
+.right{float: right}
+
+/*this关键字例子*/
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 0 50px
+}
+h1 a{
+    margin-top: 35px;
+    background-color: #ECEADB;
+    text-shadow: 0 2px 0 #fcf9ee, 0 4px 0 rgba(0,0,0,.15);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    text-align: center;
+    color: #8f0206;
+    font-size: 22px;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+#caseOne{
+    margin-top: 20px;
+
+}
+#caseOne li{
+    padding-right: 60px;
+    float: left;
+    font-size: 22px;
+    line-height: 40px;
+}
+#div1{
+
+}
+
+#div1 textarea{
+    z-index: -99999;
+    resize: none;
+    display: inline-block;
+    background-color: #f1f1f1;
+    border:none;
+    outline: none;
+    border: 1px dashed #53b2c6;
+    width: 800px;
+    height:393px;
+    font-size: 16px;
+}
