@@ -325,6 +325,64 @@
     <ul>
         <li><span><pre class="intro">
 <textarea class="codeST">
+    <!--<!DOCTYPE html>-->
+    <!--<html>-->
+    <!--<head lang="en">-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>this关键字</title>-->
+    <!--<link type="text/css" rel="stylesheet" href="menu.css">-->
+    <!--</head>-->
+    <!--<body>-->
+    <!--<div id="div1">-->
+    <!--<img aabbcc="123" src="../images/1.jpg"/>-->
+    <!--</div>-->
+    <!--<a onclick="changeImg(this);return false;" href="http://www.imooc.com/learn/40">1</a>-->
+    <!--<a onclick="changeImg(this)" href="#">2</a>-->
+    <!--<a onclick="changeImg(this)" href="#">3</a>-->
+    <!--<a onclick="changeImg(this)" href="#">4</a>-->
+    <!--</body>-->
+    <!--</html>-->
+    <!--<script>-->
+    <!--function changeImg(ele) {-->
+    <!--var oImg = document.getElementById("div1").getElementsByTagName("img").item(0);-->
+    <!--oImg.src = '../images/' + ele.innerHTML + '.jpg';-->
+    <!--}-->
+    <!--</script>方法一-->
+
+
+    <!--<!DOCTYPE html>-->
+    <!--<html>-->
+    <!--<head lang="en">-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>this关键字</title>-->
+    <!--<link type="text/css" rel="stylesheet" href="menu.css">-->
+    <!--</head>-->
+    <!--<body>-->
+    <!--<div id="div1">-->
+    <!--<img aabbcc="123" src="../images/1.jpg"/>-->
+    <!--</div>-->
+    <!--<a  href="#">1</a>-->
+    <!--<a  href="#">2</a>-->
+    <!--<a  href="#">3</a>-->
+    <!--<a  href="#">4</a>-->
+    <!--</body>-->
+    <!--</html>-->
+    <!--<script>-->
+    <!--function changeImg(ele) {-->
+    <!--var oImg = document.getElementById("div1").getElementsByTagName("img").item(0);-->
+    <!--oImg.src = '../images/' + ele.innerHTML + '.jpg';-->
+    <!--}-->
+    <!--var oAs=document.getElementsByTagName("a");-->
+    <!--for(var i=0;i<oAs.length;i++){-->
+    <!--oAs.item(i).onclick=function(){-->
+    <!--changeImg(this);-->
+    <!--return false;-->
+
+    <!--}-->
+    <!--}-->
+    <!--</script>-->
+
+
     <!DOCTYPE html>
     <html>
     <head lang="en">
@@ -365,7 +423,6 @@
         }
 
     </script>
-
 </textarea>
 <input type="button" class="texButton" onclick="runCode(this.offsetParent.getElementsByTagName('textarea')[0])" value="运行代码"/>
 <script>
@@ -477,7 +534,7 @@
                 <a href="http://nicegege.iteye.com/blog/1717366" target="_blank">总结js中的json对象</a></br>
                 <a href="http://www.hemin.cn/jq/" target="_blank">jQuery在线手册</a></br>
                 <a href="http://tool.css-js.com/" target="_blank">Javascript压缩工具</a></br>
-                <a href="http://www.52rzb.com/norm/index.html/" target="_blank">百度项目开发规范</a></br>
+                <a href="http://www.52rzb.com/norm" target="_blank">百度项目开发规范</a></br>
             </li>
         </ul>
     </section>
