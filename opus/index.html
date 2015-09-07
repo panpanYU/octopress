@@ -112,7 +112,29 @@
 <div id="content">
 <div>
 <article>
-<p>待定</p>
+<p>
+    <pre><html>
+<head>
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript">
+
+$("#field").change(function(){
+var s=$("#field").val();
+var reg = new RegExp("^[0-9]*$");
+if(!reg.test(s)){
+alert("请输入数字");
+}
+});
+
+</script>
+</head>
+<body>
+
+Enter your name: <input id="field" type="text" />
+</body>
+</html>
+</pre>
+</p>
 </article>
 
 </div>
