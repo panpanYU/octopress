@@ -32,6 +32,57 @@ body {
     display: flex;
     flex-flow: row
 }
+.select {
+    background: url("/tradingroom/css/images/arrow-1.png") no-repeat scroll right center transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100px;
+    padding-left: 10px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: none;
+    overflow: hidden
+}
+
+.select-small {
+    background: url("/tradingroom/css/images/arrow-1.png") no-repeat scroll right center transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 470px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #dadada;
+    padding-left: 10px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: none;
+    overflow: hidden
+}
+
+select::-ms-expand {
+    display: none
+}
+
+.textarea {
+    width: 450px;
+    height: 205px;
+    line-height: 30px;
+    border: 1px solid #dadada;
+    padding: 0 10px
+}
+
+.textarea-small {
+    width: 270px;
+    height: 85px;
+    line-height: 30px;
+    border: 1px solid #dadada;
+    padding: 0 10px;
+    resize: none
+}
 
 .icon-7 {
     width: 7px;
@@ -605,7 +656,7 @@ body {
 
 .innercon .innercon-title {
     padding: 12px 0;
-    margin: 0 20px;
+    /*margin: 0 20px;*/
     border-bottom: 1px solid #eee
 }
 
@@ -647,7 +698,7 @@ body {
 }
 
 .input-one {
-    width: 300px;
+    width: 270px;
     height: 36px;
     line-height: 36px;
     border: 1px solid #dadada;
@@ -706,9 +757,12 @@ input, select, textarea {
     line-height: 21px;
 }
 
-@media(max-device-width:375px){
+@media(max-device-width:414px){
     .innercon{
         padding:  0 10px;
+    }
+    .innercon .innercon-title{
+        margin: 0 10px;
     }
     /*index适配*/
     .sort a{
@@ -733,5 +787,94 @@ input, select, textarea {
     .innercon .innercon-from .innercon-describe label {
         width: 90px;
         font-size: 13px;
+        line-height: 15px;
     }
 }
+
+.innercon .hr-gray {
+    margin: 22px 0 12px 0;
+    border: 1px dashed #f2f2f2;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 100%
+}
+
+.innercon .innercon-from {
+    font-size: 14px;
+    color: #333
+}
+
+.innercon .innercon-from .innercon-describe {
+    height: 36px;
+    line-height: 36px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row
+}
+
+.innercon .innercon-from .innercon-describe input[type="checkbox"] {
+    margin-top: 2px
+}
+
+.innercon .innercon-from .innercon-describe label {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 100px;
+    padding-right: 15px;
+    text-align: right;
+    line-height: 16px;
+    /*margin: auto;*/
+}
+
+.innercon .innercon-from .innercon-describe input {
+    /*width: 100%;*/
+    /*-moz-box-flex: 1;*/
+    /*-webkit-box-flex: 1;*/
+    /*box-flex: 1;*/
+    /*-moz-flex: 1;*/
+    /*-webkit-flex: 1;*/
+    /*flex: 1*/
+}
+
+
+.innercon .innercon-from .innercon-describe .describe-tips {
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 100px;
+}
+
+.innercon .innercon-from .innercon-describe .gray-tips {
+    color: #999
+}
+
+.innercon .innercon-from .innercon-describe .lin22 {
+    display: block;
+    height: 30px;
+    line-height: 14px
+}
+
+.innercon .innercon-from .innercon-describe .red-tips {
+    color: #f58888;
+    line-height: 14px;
+    padding-top: 10px;
+}
+
+.innercon .innercon-from .innercon-describe .blue-tips {
+    color: #5a7db6;
+    vertical-align: baseline;
+    padding-left: 20px;
+    font-style: inherit
+}
+
+.innercon .save-infor {
+    padding: 40px 0 40px 0px;
+    text-align: center;
+}
+
+

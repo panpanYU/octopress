@@ -1,0 +1,55 @@
+
+
+.innercon .innercon-title-personal {
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .innercon-title-personal span {
+    font-size: 18px;
+    color: #5a7db6
+}
+
+.innercon .innercon-describe .label {
+    vertical-align: top;
+    padding-top: 3px;
+    white-space: normal;
+    color: #333;
+    font-size: 14px;
+}
+
+
+.innercon .innercon-describe select {
+    width: 270px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #dadada;
+}
+
+.innercon .contact-submit {
+    text-align: center;
+    margin: 50px 0 205px 0
+}
+
+.innercon .note {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    margin: 20px 30px 20px 100px;
+    text-align: justify;
+}
+
+.innercon .note p {
+    margin-bottom: 20px;
+   display: inline-block;
+    text-align: justify;
+
+}
+
+.innercon .note p input{
+    margin: 0;
+}
+.innercon .note p label{
+display: inline;
+}
+

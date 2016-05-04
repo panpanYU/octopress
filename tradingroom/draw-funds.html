@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>ACY稀万国际后台管理中心-个人信息</title>
+    <title>ACY稀万国际后台管理中心-提取资金</title>
     <meta name="keywords" content="ACY稀万国际 金融 交易">
     <meta name="description" content="ACY稀万国际后台管理中心">
     <link href="../css/images/favicon.ico" mce_href="favicon.ico" rel="icon"
           type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
-    <link href="css/person-infor.min.css" rel="stylesheet">
+    <link href="css/draw-funds.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -122,8 +122,8 @@
             <div class="innercon">
                 <div class="innercon-title flex-one">
                     <div class="innercon-con flex-1">
-                        <i class="icon-28 icon-28-people"></i>
-                        <span>个人信息</span>
+                        <i class="icon-28 icon-28-tqzj"></i>
+                        <span>提取资金</span>
                     </div>
                     <div class="innercon-return">
                         <a href="javascript:history.go(-1)">
@@ -136,87 +136,59 @@
                 </div>
                 <form class="innercon-from">
                     <div class="innercon-describe mar-top-20">
+                        <label>选择账户</label>
+                        <select class="select">
+                            <option>#105156 | 534.08</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                    <div class="innercon-describe mar-top-20">
+                        <label>提款金额(美金)</label>
+                        <input class="input-one" type="text"/>
+                    </div>
+                    <div class="innercon-title-personal">
+                        <span>确认您的个人信息</span>
+                    </div>
+                    <div class="innercon-describe mar-top-20">
                         <label>名</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="ACY FX"/>
+                        <input class="input-one input-one-gray" type="text" placeholder="ACY FX" disabled="disabled"/>
                     </div>
                     <div class="innercon-describe mar-top-20">
                         <label>姓</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled"
-                               placeholder="Intemal  Testing"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>电子邮件</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled"
-                               placeholder="Testing@testing.com"/>
+                        <input class="input-one input-one-gray" type="text" placeholder="Intemal Testing" disabled="disabled"/>
                     </div>
                     <div class="innercon-describe mar-top-20">
                         <label>联系电话</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="n/a"/>
+                        <input class="input-one" type="text" placeholder="13886868686" disabled="disabled"/>
                     </div>
                     <div class="innercon-describe mar-top-20">
-                        <label>居住地址</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="n/a"/>
+                        <label>电子邮件</label>
+                        <input class="input-one" type="text" placeholder=""/>
                     </div>
                     <div class="innercon-describe mar-top-20">
-                        <label>城市</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="n/a"/>
+                        <label>选择银行</label>
+                        <select class="select">
+                            <option>点击选择帐号</option>
+                            <option>2</option>
+                        </select>
                     </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>邮编</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="--"/>
+                    <div class="innercon-describe mar-top-20" style="height: 90px">
+                        <label class="label">附言 （请确认您的出款
+                            方式 - 银联或电汇）</label>
+                        <textarea class="textarea-small"></textarea>
                     </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>省份</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="--"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>国家</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="澳大利亚"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>个人证明</label>
-                        <span class="btn-middle bg-blue-4 btn-blue-border mar-right-20">上传正面</span><span
-                            class="btn-middle bg-blue-4 btn-blue-border">上传背面</span>
-                    </div>
-                    <div class="innercon-describe">
-                        <p class="describe-tips gray-tips">上传身份证的正反面或护照正面</p>
-                    </div>
-                    <div class="innercon-describe" id="innercon-describe">
-                        <label>居住证证明</label>
-                        <i class="icon-18 icon-18-pic mar-right-20"></i><span>已上传</span><a href=""
-                                                                                           class="describe-tips blue-tips">查看</a>
-                    </div>
-                    <div class="innercon-describe">
-                        <span class="describe-tips gray-tips lin22">后台审核中&nbsp;（我们会在48小时之内审核）</span>
-                    </div>
-                    <div class="innercon-describe mar-top-10">
-                        <label>其他证件</label>
-                        <span class="btn-middle bg-blue-4 btn-blue-border">上传附件</span>
-                    </div>
-                    <div class="innercon-describe">
-                        <span class="describe-tips red-tips">上传文件大小不能超过5MB，支持文件JPG、PNG，BMP</span>
+                    <div class="note">
+                        <p>
+                            <input type="checkbox"/>
+                            <label> 注意：最低出金数额为$50美金。出金申请只需递交一次，请不要重复递交。ACY稀万国际并不接受第三方转账。收款人的名字必须与开户人的名字完全一致。您的接收银行可能会收取一定的费用。
+                            </label>
+                        </p>
+                        <p>
+                            汇率即时变动，实际转款汇率以转账时的汇率为准。银联出金免手续费，电汇出金$25美金手续费。我们有权要求您提供与转账相关的额外补充文件。出金两个工作日之内会处理执行。执行后银联最快当天到账，慢则下个工作日，电汇2-5个工作日到账。提醒，如果您还有交易仓位，出金将无法执行，请平仓后再申请。如在出金申请没被执行前，再次开仓，出金申请将会被取消。</p>
                     </div>
                     <div class="hr-gray"></div>
-                    <div class="innercon-title">
-                        <div class="innercon-con">
-                            <i class="icon-28 icon-28-lock"></i>
-                            <span>更改您的密码</span>
-                        </div>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>当前密码</label>
-                        <input class="input-one" type="text" placeholder=""/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>新密码</label>
-                        <input class="input-one" type="text" placeholder=""/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>确认密码</label>
-                        <input class="input-one" type="text" placeholder=""/>
-                    </div>
                     <div class="save-infor">
-                        <a href="" class="btn-middle bg-green btn-green-border" type="button">保存更改</a>
+                        <a href="" class="btn-middle bg-green btn-green-border" type="button">确认提交</a>
                     </div>
                 </form>
             </div>
