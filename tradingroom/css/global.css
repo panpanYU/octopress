@@ -33,7 +33,7 @@ body {
     flex-flow: row
 }
 .select {
-    background: url("/tradingroom/css/images/arrow-1.png") no-repeat scroll right center transparent;
+    background: url("http://192.168.199.109/yupan/tradingroom/css/images/arrow-1.png") no-repeat scroll right center transparent;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -47,7 +47,7 @@ body {
 }
 
 .select-small {
-    background: url("/tradingroom/css/images/arrow-1.png") no-repeat scroll right center transparent;
+    background: url("http://192.168.199.109/yupan/tradingroom/css/images/arrow-1.png") no-repeat scroll right center transparent;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -87,7 +87,7 @@ select::-ms-expand {
 .icon-7 {
     width: 7px;
     height: 7px;
-    background-image: url("/tradingroom/css/images/icon-7.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-7.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -102,7 +102,7 @@ select::-ms-expand {
 .icon-18 {
     width: 18px;
     height: 18px;
-    background-image: url("/tradingroom/css/images/icon-18.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-18.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -165,7 +165,7 @@ select::-ms-expand {
 .icon-28 {
     width: 28px;
     height: 28px;
-    background-image: url("/tradingroom/css/images/icon-28.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-28.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -216,7 +216,7 @@ select::-ms-expand {
 .icon-38 {
     width: 38px;
     height: 38px;
-    background-image: url("/tradingroom/css/images/icon-38.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-38.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -263,7 +263,7 @@ select::-ms-expand {
 .icon-42 {
     width: 42px;
     height: 42px;
-    background-image: url("/tradingroom/css/images/icon-42.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-42.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -298,7 +298,7 @@ select::-ms-expand {
 .icon-50 {
     width: 50px;
     height: 50px;
-    background-image: url("/tradingroom/css/images/icon-50.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-50.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -373,7 +373,7 @@ select::-ms-expand {
 .icon-165 {
     width: 165px;
     height: 100px;
-    background-image: url("/tradingroom/css/images/icon-165.png");
+    background-image: url("http://192.168.199.109/yupan/tradingroom/css/images/icon-165.png");
     background-repeat: no-repeat;
     display: inline-block;
     *display: inline;
@@ -525,12 +525,12 @@ select::-ms-expand {
 }
 
 .details p:first-child {
-    background: #667BA6 url(/tradingroom/css/images/icon-165.png) no-repeat right top;
+    background: #667BA6 url(http://192.168.199.109/yupan/tradingroom/css/images/icon-165.png) no-repeat right top;
     margin-right: 10px;
 }
 
 .details p:last-child {
-    background: #7284AC url(/tradingroom/css/images/icon-165.png) no-repeat right bottom;
+    background: #7284AC url(http://192.168.199.109/yupan/tradingroom/css/images/icon-165.png) no-repeat right bottom;
     margin-left: 10px;
 }
 
@@ -756,39 +756,11 @@ input, select, textarea {
 #innercon-describe{
     line-height: 21px;
 }
-
-@media(max-device-width:414px){
-    .innercon{
-        padding:  0 10px;
-    }
-    .innercon .innercon-title{
-        margin: 0 10px;
-    }
-    /*index适配*/
-    .sort a{
-    padding: 0;
-}
-   #innercon-describe{
-        line-height: 21px;
-    }
-    .navbar-brand{
-        font-size: 16px;
-    }
-    .btn-middle{
-        padding: 0 15px;
-    }
-
-    .innercon{
-        padding: 0;
-    }
-    .innercon-describe{
-        padding-right: 15px;
-    }
-    .innercon .innercon-from .innercon-describe label {
-        width: 90px;
-        font-size: 13px;
-        line-height: 15px;
-    }
+.innercon .innercon-describe select {
+    width: 270px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #dadada;
 }
 
 .innercon .hr-gray {
@@ -814,7 +786,14 @@ input, select, textarea {
     display: -moz-flex;
     display: -webkit-flex;
     display: flex;
-    flex-flow: row
+    flex-flow: row;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    /*混合版本语法*/
+    -ms-flex-align: center;
+    /*新版本语法*/
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 .innercon .innercon-from .innercon-describe input[type="checkbox"] {
@@ -872,9 +851,57 @@ input, select, textarea {
     font-style: inherit
 }
 
+.innercon .innercon-from .tip{
+    color: #f58888;
+    line-height: 20px;
+    padding: 30px 80px;
+    background-color: #f8f8f8;
+}
+
 .innercon .save-infor {
     padding: 40px 0 40px 0px;
     text-align: center;
 }
+@media(max-device-width:414px){
+    .innercon{
+        padding:  0 10px;
+    }
+    .innercon .innercon-title{
+        margin: 0 10px;
+    }
+    /*index适配*/
+    .sort a{
+        padding: 0;
+    }
+    #innercon-describe{
+        line-height: 21px;
+    }
+    .navbar-brand{
+        font-size: 16px;
+    }
+    .btn-middle{
+        padding: 0 15px;
+    }
 
+    .innercon{
+        padding: 0;
+    }
+    .innercon-describe{
+        padding-right: 15px;
+    }
+    .innercon .innercon-from .innercon-describe label {
+        width: 90px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
 
+@media(min-device-width:414px){
+    .innercon .innercon-from .innercon-describe label {
+        width: 160px;
+    }
+    }
+
+.font-12{
+    font-size: 12px;
+}

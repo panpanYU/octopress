@@ -1,0 +1,69 @@
+.innercon .innercon-describe {
+    position: relative
+}
+
+.innercon .innercon-describe .title {
+    width: 40px;
+    font-size: 10px!important;
+    text-align: left;
+    font-style: normal;
+    font-size: 12px!important;
+    color: #999;
+    margin-left: 5px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.innercon .note {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    margin: 20px 28px 20px 170px;
+    text-align: justify
+}
+
+.innercon .note p {
+    margin-bottom: 20px
+}
+
+.innercon .innercon-describe textarea {
+    width: 270px;
+    vertical-align: top;
+    border: 1px solid #dadada;
+    padding: 0 10px;
+    height: 120px;
+}
+
+.innercon .innercon-describe .on {
+    height: inherit;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.height-120 {
+    height: 120px !important;
+}
+
+@media (min-device-width: 414px) {
+    .innercon .innercon-from .innercon-describe label {
+        width: 180px;
+    }
+}
+@media (max-device-width: 414px)
+    .innercon .innercon-from .innercon-describe label {
+        width: 50px!important;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .innercon .innercon-from .innercon-describe .on {
+        width: 50px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .innercon .innercon-from .innercon-describe input{
+        width: 180px;
+}
+    .innercon .innercon-from .innercon-describe textarea{
+        width: 180px;
+    }
+}

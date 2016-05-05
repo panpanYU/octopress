@@ -19,12 +19,7 @@
 }
 
 
-.innercon .innercon-describe select {
-    width: 270px;
-    height: 36px;
-    line-height: 36px;
-    border: 1px solid #dadada;
-}
+
 
 .innercon .contact-submit {
     text-align: center;
@@ -35,8 +30,18 @@
     font-size: 12px;
     line-height: 16px;
     color: #666;
-    margin: 20px 30px 20px 100px;
+    margin: 20px 30px 20px 158px;
     text-align: justify;
+}
+
+@media(max-device-width:414px){
+    .innercon .note {
+        font-size: 12px;
+        line-height: 16px;
+        color: #666;
+        margin: 20px 30px 20px 85px;
+        text-align: justify;
+    }
 }
 
 .innercon .note p {

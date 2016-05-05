@@ -1,0 +1,38 @@
+.innercon .innercon-title-phone {
+    line-height: 30px;
+    font-weight: bold;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .innercon-title-phone span {
+    font-size: 18px;
+    color: #5a7db6
+}
+
+.innercon .classify a {
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background-color: #597cb5;
+    border-radius: 100px;
+    overflow: hidden
+}
+
+.innercon .classify a div {
+    margin-top: 30px
+}
+
+.innercon .classify a p {
+    margin-top: 7px;
+    font-size: 16px;
+    color: #fff
+}
+
+@media(max-device-width:414px){
+    .innercon .classify a {
+        margin: 30px 10px;
+    }
+}

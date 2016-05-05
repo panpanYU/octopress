@@ -1,0 +1,13 @@
+.innercon .innercon-describe textarea {
+    width: 270px;
+    vertical-align: top;
+    border: 1px solid #dadada;
+    padding: 0 10px;
+    height: 150px;
+}
+.innercon .innercon-describe .on{
+    height: inherit;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
