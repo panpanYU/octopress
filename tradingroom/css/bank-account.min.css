@@ -1,0 +1,137 @@
+.bg-blue {
+    background-size: cover;
+    background: #39558e;
+    background: -moz-linear-gradient(top, #39528e, rgba(59, 88, 146, 0.85));
+    background: -webkit-gradient(linear, left top, left bottom, from(#39528e), to(rgba(59, 88, 146, 0.85)));
+    background: -o-linear-gradient(top, #39528e, rgba(59, 88, 146, 0.85))
+}
+
+.bg-blue-1 {
+    background-size: cover;
+    background: #5a7db6;
+    background: -moz-linear-gradient(top, #4a66a9, rgba(106, 145, 193, 0.85));
+    background: -webkit-gradient(linear, left left, left bottom, from(#4a66a9), to(rgba(106, 145, 193, 0.85)));
+    background: -o-linear-gradient(top, #4a66a9, rgba(106, 145, 193, 0.85))
+}
+
+.bg-blue-2 {
+    background-size: cover;
+    background: #3a4c65
+}
+
+.bg-blue-3 {
+    background-size: cover;
+    background: #4b6ea6;
+    background: -moz-linear-gradient(top, #4b6ea6, rgba(84, 114, 166, 0.85));
+    background: -webkit-gradient(linear, left left, left bottom, from(#4b6ea6), to(rgba(84, 114, 166, 0.85)));
+    background: -o-linear-gradient(top, #4b6ea6, rgba(84, 114, 166, 0.85))
+}
+
+.bg-blue-4 {
+    background-size: cover;
+    background: #8b9fc5;
+    background: -moz-linear-gradient(top, #8b9fc5, rgba(84, 114, 166, 0.85));
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b9fc5), to(rgba(84, 114, 166, 0.85)));
+    background: -o-linear-gradient(top, #8b9fc5, rgba(84, 114, 166, 0.85))
+}
+
+.bg-green {
+    background-size: cover;
+    background: #4d9f4d;
+    background: -moz-linear-gradient(top, #4d9f4d, rgba(71, 153, 71, 0.85));
+    background: -webkit-gradient(linear, left bottom, left bottom, from(#4d9f4d), to(rgba(71, 153, 71, 0.85)));
+    background: -o-linear-gradient(top, #4d9f4d, rgba(71, 153, 71, 0.85))
+}
+
+.bg-blue-5 {
+    background-size: cover;
+    background: #7989a4;
+    background: -moz-linear-gradient(top, #7989a4, rgba(112, 132, 164, 0.85));
+    background: -webkit-gradient(linear, left bottom, left bottom, from(#7989a4), to(rgba(112, 132, 164, 0.85)));
+    background: -o-linear-gradient(top, #7989a4, rgba(112, 132, 164, 0.85));
+    border-left: 1px solid #7989a4;
+    border-right: 1px solid #7989a4;
+    height: 40px;
+    line-height: 40px
+}
+
+.innercon .bank-account-tit {
+    margin: 46px 0 90px 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden
+}
+
+.innercon .bank-account-tit .module-one {
+    width: 116px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .bank-account-tit .module-two {
+    width: 155px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .bank-account-tit .module-three {
+    width: 125px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .bank-account-tit .module-four {
+    width: 105px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .bank-account-tit .module-five {
+    width: 91px;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .bank-account-tit .cycle {
+    border-left: 1px solid #eee !important;
+    border-right: 1px solid #eee !important
+}
+
+.innercon .bank-account-tit .list-title {
+    text-align: center;
+    font-size: 14px;
+    color: #fff
+}
+
+.innercon .bank-account-tit .list-odd {
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666
+}
+
+.innercon .bank-account-tit .list-odd:nth-child(even) {
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #f00
+}
+
+.innercon .bank-account-tit .list-odd .module-five {
+    text-align: center
+}
+
+.innercon .bank-account-tit .list-odd .module-five span {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.innercon .bank-account-tit .list-odd th {
+    padding: 0 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap
+}
+
+.innercon .bank-account-tit .add-number {
+    text-align: center;
+    padding: 60px 0 30px 0
+}

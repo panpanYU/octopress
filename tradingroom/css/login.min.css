@@ -1,0 +1,273 @@
+.bg-blue {
+    background-size: cover;
+    background: #39558e;
+    background: -moz-linear-gradient(top, #39528e, rgba(59, 88, 146, 0.85));
+    background: -webkit-gradient(linear, left top, left bottom, from(#39528e), to(rgba(59, 88, 146, 0.85)));
+    background: -o-linear-gradient(top, #39528e, rgba(59, 88, 146, 0.85))
+}
+
+.bg-blue-1 {
+    background-size: cover;
+    background: #5a7db6;
+    background: -moz-linear-gradient(top, #4a66a9, rgba(106, 145, 193, 0.85));
+    background: -webkit-gradient(linear, left left, left bottom, from(#4a66a9), to(rgba(106, 145, 193, 0.85)));
+    background: -o-linear-gradient(top, #4a66a9, rgba(106, 145, 193, 0.85))
+}
+
+.bg-blue-2 {
+    background-size: cover;
+    background: #3a4c65
+}
+
+.bg-blue-3 {
+    background-size: cover;
+    background: #4b6ea6;
+    background: -moz-linear-gradient(top, #4b6ea6, rgba(84, 114, 166, 0.85));
+    background: -webkit-gradient(linear, left left, left bottom, from(#4b6ea6), to(rgba(84, 114, 166, 0.85)));
+    background: -o-linear-gradient(top, #4b6ea6, rgba(84, 114, 166, 0.85))
+}
+
+.bg-blue-4 {
+    background-size: cover;
+    background: #8b9fc5;
+    background: -moz-linear-gradient(top, #8b9fc5, rgba(84, 114, 166, 0.85));
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b9fc5), to(rgba(84, 114, 166, 0.85)));
+    background: -o-linear-gradient(top, #8b9fc5, rgba(84, 114, 166, 0.85))
+}
+
+.bg-green {
+    background-size: cover;
+    background: #4d9f4d;
+    background: -moz-linear-gradient(top, #4d9f4d, rgba(71, 153, 71, 0.85));
+    background: -webkit-gradient(linear, left bottom, left bottom, from(#4d9f4d), to(rgba(71, 153, 71, 0.85)));
+    background: -o-linear-gradient(top, #4d9f4d, rgba(71, 153, 71, 0.85))
+}
+
+.bg-blue-5 {
+    background-size: cover;
+    background: #7989a4;
+    background: -moz-linear-gradient(top, #7989a4, rgba(112, 132, 164, 0.85));
+    background: -webkit-gradient(linear, left bottom, left bottom, from(#7989a4), to(rgba(112, 132, 164, 0.85)));
+    background: -o-linear-gradient(top, #7989a4, rgba(112, 132, 164, 0.85));
+    border-left: 1px solid #7989a4;
+    border-right: 1px solid #7989a4;
+    height: 40px;
+    line-height: 40px
+}
+
+.btn {
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+    cursor: pointer;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: center
+}
+
+.btn-1 {
+    height: 28px;
+    line-height: 28px;
+    width: 240px
+}
+
+.btn-2 {
+    height: 46px;
+    line-height: 46px;
+    width: 340px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.btn-bg-border {
+    background-color: #e1d2d7;
+    border: 1px solid #baa1a5
+}
+
+.btn-bg-blue {
+    background-color: #5471ac;
+    color: #d1d8e8
+}
+
+.btn-small {
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.btn-middle {
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.btn-blue-border {
+    border: 1px solid #7a97c6
+}
+
+.btn-green-border {
+    border: 1px solid #4a9c4a
+}
+
+html, body {
+    height: 100%
+}
+
+.login-home {
+    padding: 30px 0 120px 30px
+}
+
+.wrapper .title {
+    margin: 20px 0;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    overflow: hidden
+}
+
+.wrapper .title img {
+    vertical-align: top
+}
+
+.wrapper .title label {
+    line-height: 30px;
+    font-size: 28px
+}
+
+.wrapper .wrapper-form {
+    text-align: center;
+    display: block
+}
+
+.wrapper .wrapper-form .error-text {
+    height: 40px
+}
+
+.wrapper .wrapper-form span {
+    color: #bc4a2c
+}
+
+.wrapper .login-col {
+    margin: auto;
+    width: 340px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff
+}
+
+.wrapper .login-col p {
+    margin: 0 5px 0 20px;
+    text-align: left;
+    height: 50px;
+    line-height: 50px
+}
+
+.wrapper .login-col p:first-child {
+    border-bottom: 1px solid #eee
+}
+
+.wrapper .login-col p input {
+    font-size: 14px;
+}
+
+.wrapper .login-col .login-submit {
+    margin-top: 20px
+}
+
+.wrapper .wrapper-bottom a {
+    display: block;
+    text-align: center;
+    color: #fff
+}
+
+.wrapper .wrapper-bottom a:first-child {
+    margin-top: 80px;
+    font-size: 18px
+}
+
+.wrapper .wrapper-bottom a:last-child {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #8692b2
+}
+
+@media (max-device-width: 320px) {
+    body{
+        padding-top: 0;
+    }
+    .wrapper .login-col p input{
+        border: none;
+    }
+    .form-control:focus {
+        /*这里改成了绿色*/
+        border-color: #fff;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .wrapper .login-col{
+        width: 300px;
+    }
+    .wrapper .btn-2{
+        width: 300px;
+    }
+    .wrapper .wrapper-bottom a:first-child{
+        margin-top: 60px;
+    }
+
+}
+@media (max-device-width: 440px) {
+    .login-home{
+        padding: 0;
+    }
+    .wrapper .title{
+        height: inherit;
+    }
+
+    .wrapper .title label{
+        display: block;
+        font-size: 16px;
+        line-height: 18px;
+        padding-top: 10px;
+    }
+
+}
+
+@media (min-device-width: 320px) {
+    .wrapper .login-col p input{
+        border: none;
+    }
+    .form-control:focus {
+        /*这里改成了绿色*/
+        border-color: #fff;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+}

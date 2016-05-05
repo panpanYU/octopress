@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/tradingroom/child-account.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/contact-us.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/css/child-account.min.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/css/contact-us.min.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/css/ib-account.min.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/css/mt4.min.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/css/transfer-funds.min.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/ib-account.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/js/transfer-funds.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/mt4.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tradingroom/transfer-funds.html" charset="UTF-8" />
-  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
 </project>

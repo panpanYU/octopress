@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b84231-301a-46b3-9207-2cce088732ce" name="Default" comment="" />
+    <list default="true" id="99b84231-301a-46b3-9207-2cce088732ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradingroom/bank-account.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradingroom/css/bank-account.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradingroom/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradingroom/css/login.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/child-account.html" afterPath="$PROJECT_DIR$/tradingroom/child-account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/contact-us.html" afterPath="$PROJECT_DIR$/tradingroom/contact-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/css/global.css" afterPath="$PROJECT_DIR$/tradingroom/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/ib-account.html" afterPath="$PROJECT_DIR$/tradingroom/ib-account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/index.html" afterPath="$PROJECT_DIR$/tradingroom/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/mt4.html" afterPath="$PROJECT_DIR$/tradingroom/mt4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/transfer-funds.html" afterPath="$PROJECT_DIR$/tradingroom/transfer-funds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradingroom/.idea/workspace.xml" afterPath="$PROJECT_DIR$/tradingroom/.idea/workspace.xml" />
+    </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,63 +36,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mt4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradingroom/mt4.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradingroom/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.857142">
-              <caret line="142" column="50" selection-start-line="142" selection-start-column="50" selection-end-line="142" selection-end-column="50" />
+            <state vertical-scroll-proportion="-21.875">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transfer-funds.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradingroom/transfer-funds.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradingroom/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.428572">
-              <caret line="162" column="42" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ib-account.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradingroom/ib-account.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.189655">
-              <caret line="137" column="49" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="49" />
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ib-account.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tradingroom/css/ib-account.min.css">
+      <file leaf-file-name="login.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradingroom/css/login.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40625">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="229" column="33" selection-start-line="229" selection-start-column="33" selection-end-line="229" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="child-account.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradingroom/css/child-account.min.css">
+      <file leaf-file-name="bank-account.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tradingroom/bank-account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.56">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.38189533">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradingroom/css/contact-us.min.css">
+      <file leaf-file-name="bank-account.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradingroom/css/bank-account.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.88">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-18.851852">
+              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -93,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mt4.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradingroom/css/mt4.min.css">
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradingroom/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.56">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state vertical-scroll-proportion="-18.11111">
+              <caret line="501" column="23" selection-start-line="501" selection-start-column="23" selection-end-line="501" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="child-account.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradingroom/child-account.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-120.0">
+              <caret line="192" column="40" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -115,7 +128,6 @@
         <option value="$PROJECT_DIR$/tradingroom/css/person-infor.min.css" />
         <option value="$PROJECT_DIR$/tradingroom/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/tradingroom/css/draw-funds.min.css" />
-        <option value="$PROJECT_DIR$/tradingroom/css/global.css" />
         <option value="$PROJECT_DIR$/tradingroom/css/layer.css" />
         <option value="$PROJECT_DIR$/tradingroom/draw-funds.html" />
         <option value="$PROJECT_DIR$/tradingroom/js/transfer-funds.js" />
@@ -126,9 +138,15 @@
         <option value="$PROJECT_DIR$/tradingroom/contact-us.html" />
         <option value="$PROJECT_DIR$/tradingroom/css/contact-us.min.css" />
         <option value="$PROJECT_DIR$/tradingroom/css/child-account.min.css" />
-        <option value="$PROJECT_DIR$/tradingroom/child-account.html" />
         <option value="$PROJECT_DIR$/tradingroom/ib-account.html" />
         <option value="$PROJECT_DIR$/tradingroom/css/ib-account.min.css" />
+        <option value="$PROJECT_DIR$/tradingroom/child-account.html" />
+        <option value="$PROJECT_DIR$/tradingroom/index.html" />
+        <option value="$PROJECT_DIR$/tradingroom/login.html" />
+        <option value="$PROJECT_DIR$/tradingroom/css/login.min.css" />
+        <option value="$PROJECT_DIR$/tradingroom/css/global.css" />
+        <option value="$PROJECT_DIR$/tradingroom/css/bank-account.min.css" />
+        <option value="$PROJECT_DIR$/tradingroom/bank-account.html" />
       </list>
     </option>
   </component>
@@ -140,8 +158,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="216" />
-    <option name="y" value="142" />
+    <option name="x" value="595" />
+    <option name="y" value="130" />
     <option name="width" value="1170" />
     <option name="height" value="810" />
   </component>
@@ -168,7 +186,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,7 +285,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,10 +302,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tradingroom/css" />
+      <recent name="$PROJECT_DIR$/tradingroom" />
       <recent name="F:\php\htdocs\yupan\tradingroom" />
       <recent name="F:\php\htdocs\yupan\tradingroom\css" />
       <recent name="F:\php\htdocs\yupan\tradingroom\js" />
-      <recent name="$PROJECT_DIR$/tradingroom/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -344,49 +363,49 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="216" y="142" width="1170" height="810" extended-state="0" />
+    <frame x="595" y="130" width="1170" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24090122" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="822" y="51" width="315" height="876" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30230325" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24017094" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="822" y="51" width="315" height="876" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30230325" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24090122" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="822" y="51" width="315" height="876" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30230325" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30230325" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24090122" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="822" y="51" width="315" height="876" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -594,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="111.166664">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tradingroom/css/person-infor.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -622,17 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5966" column="25" selection-start-line="5966" selection-start-column="25" selection-end-line="5966" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.536586">
-          <caret line="904" column="8" selection-start-line="904" selection-start-column="1" selection-end-line="904" selection-end-column="8" />
-          <folding>
-            <element signature="e#15504#15535#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.464286">
           <caret line="136" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="462" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4099379">
           <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#8;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,61 +662,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39583334">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/js/transfer-funds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6220238">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/css/mt4.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.56">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/mt4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.857142">
-          <caret line="142" column="50" selection-start-line="142" selection-start-column="50" selection-end-line="142" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.892858">
-          <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tradingroom/child-account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.357143">
-          <caret line="164" column="54" selection-start-line="164" selection-start-column="54" selection-end-line="164" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/transfer-funds.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.428572">
-          <caret line="162" column="42" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-120.0">
+          <caret line="192" column="40" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,34 +681,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/css/contact-us.min.css">
+    <entry file="file://$PROJECT_DIR$/tradingroom/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.88">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/css/child-account.min.css">
+    <entry file="file://$PROJECT_DIR$/tradingroom/css/login.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.56">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="229" column="33" selection-start-line="229" selection-start-column="33" selection-end-line="229" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/ib-account.html">
+    <entry file="file://$PROJECT_DIR$/tradingroom/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.189655">
-          <caret line="137" column="49" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="49" />
+        <state vertical-scroll-proportion="-21.875">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradingroom/css/ib-account.min.css">
+    <entry file="file://$PROJECT_DIR$/tradingroom/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40625">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state vertical-scroll-proportion="-18.11111">
+          <caret line="501" column="23" selection-start-line="501" selection-start-column="23" selection-end-line="501" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradingroom/mt4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="213" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradingroom/css/bank-account.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.851852">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradingroom/bank-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38189533">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
