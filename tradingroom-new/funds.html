@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>ACY稀万国际后台管理中心-存入资金</title>
+    <meta name="keywords" content="ACY稀万国际 金融 交易">
+    <meta name="description" content="ACY稀万国际后台管理中心">
+    <link href="../css/images/favicon.ico" mce_href="favicon.ico" rel="icon"
+          type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/funds.min.css" rel="stylesheet">
+    <link href="css/layer.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- 顶部导航 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">ACY&nbsp;</span>稀万国际&nbsp;|&nbsp;个人管理后台</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">语言：中文 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#feature-tab" data-tab="tab-chrome">语言：英文</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle pad-6" data-toggle="dropdown"> <span
+                            class="icon-38 icon-38-seeting"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#feature-tab" data-tab="tab-chrome"><i
+                                class="icon-18 icon-18-setting"></i>设置个人信息</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-firefox"><i class="icon-18 icon-18-out"></i>退出当前帐号</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 hidden-xs">
+            <!-- sidebar_start-->
+            <div class="sidebar">
+                <div class="menu" id="menu">
+                    <p class="Tips">上午好，欢迎登录您的交易后台！</p>
+
+                    <p class="title"><i class="icon-18 icon-18-people"></i><label>ACY FX Internal Testing</label></p>
+
+                    <p class="regtime">
+                        <label>注册日期：<span>2014年06月08日</span></label>
+                        <label>状态：<span>有效</span></label>
+                    </p>
+
+                    <div class="submit-refresh">
+                        <a href="">
+                            <input class="btnSendCode" type="button" value="刷新余额"/>
+                        </a>
+                    </div>
+                    <div class="detail-infor">
+                        <table class="table table-bordered" id="table">
+                            <thead>
+                            <tr class="warning">
+                                <td>MT4账户</td>
+                                <td>类型</td>
+                                <td>余额</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="danger">
+                                <td>10516</td>
+                                <td>Live</td>
+                                <td><span>15512.25</span></td>
+                            </tr>
+                            <tr class="danger">
+                                <td>10516</td>
+                                <td>Live</td>
+                                <td><span>15512.25</span></td>
+                            </tr>
+                            <tr class="danger">
+                                <td>10516</td>
+                                <td>Live</td>
+                                <td><span>15512.25</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="btn-green"><a href="">存入资金</a></div>
+                </div>
+            </div>
+            <div class="details flex-one">
+                <p class="flex-1"><span>在线客服</span><span>北京时间&nbsp;08:00-20:00</span></p>
+
+                <p class="flex-1 pull-left"><span>在线客服</span><span>北京时间&nbsp;08:00-20:00</span></p>
+            </div>
+            <div class="contact flex-one">
+                <a class="flex-1" href="#"><i class="icon-38 icon-38-qq"></i><span>QQ在线客服</span></a>
+                <a class="flex-1" href="#"><i class="icon-38 icon-38-lives"></i><span>Lives&nbsp;Chat</span></a>
+            </div>
+            <!-- sidebar_over-->
+        </div>
+        <!--right_start-->
+        <div class="col-xs-12 col-md-8">
+            <div class="innercon">
+                <div class="innercon-title flex-one">
+                    <div class="innercon-con flex-1">
+                        <i class="icon-28 icon-28-funds"></i>
+                        <span>存入资金</span>
+                    </div>
+                    <div class="innercon-return">
+                        <a href="javascript:history.go(-1)">
+                            <i class="icon-18 icon-18-return"></i>
+                        <span>
+                            返回
+                        </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="funds-classify flex-one">
+                    <div class="funds flex-1">
+                        <a>
+                            <span><i class="icon-38 icon-38-iphone"></i></span>
+
+                            <p>银行转账</p>
+                        </a>
+
+                        <p class="p" data-toggle="modal" data-target="#myModal">存入资金</p>
+                    </div>
+                    <div class="flex-1">
+                        <a>
+                            <span><i class="icon-38 icon-38-android"></i></span>
+
+                            <p>银联</p>
+                        </a>
+
+                        <p class="p" data-toggle="modal" data-target="#myModalOne">网上转账</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--right_over-->
+    <div class="risk-tip">
+        <p>
+            风险提示：交易外汇和差价合约具有较高风险，并不一定适合每个投资人。您在交易的过程中有可能亏损部分或全部资金。您交易的资金不应该超过你可承受的范围。在决定与ACY稀万国际交易前，请仔细考虑您个人的投资目标，财务状况，和交易水平。您还需要详细了解杠杆交易的特性与附带风险。本网站信息属于一般产品信息，并不构成个人投资建议。我们建议您在交易前，咨询独立建议。ACY稀万国际保留最终交易解释权。</p>
+    </div>
+</div>
+
+<footer>
+    <!-- footer_start -->
+    <div class="container-fluid footer">
+        <div class="container clearfix">
+            <div class="menu pull-left">
+                <img src="http://192.168.199.109/yupan/tradingroom/css/images/logo-1.png" alt="logo"
+                     width="181" height="24"/>
+                <label><span>© ACY</span>稀万国际</label>
+            </div>
+            <div class="pull-right">
+                <ul>
+                    <li>
+                        <a>
+                            <i class="icon-42 icon-42-weibo"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+
+                            <i class="icon-42 icon-42-weixin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="icon-42 icon-42-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="icon-42 icon-42-tweet"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="icon-42 icon-42-yotub"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer_over -->
+</footer>
+<!--弹出层——银行转账——1_start-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    银行转账
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="layer-menu">
+                    <h2>ACY 稀万国际 USD(美金）、AUD（澳元）、EUR(欧元）、
+                        CNY（人民币）银行信息:
+                    </h2>
+
+                    <div>
+                        <table class="table table-bordered" id="table">
+                            <tbody>
+                            <tr class="warning">
+                                <td>银行名称</td>
+                                <td>HSBC</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>银行地址</td>
+                                <td>1 Queen's Road Central, Hong Kong</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>银行账号</td>
+                                <td>848-587093-838</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>SWIFT(银行国际代码)</td>
+                                <td>HSBCHKHHHKH</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>公司名称</td>
+                                <td>ACY Capital Australia Limited</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="mar-top-10">· 请在填写汇款表格时，在附言中写下你的MT4账号以及账户名字</p>
+
+                    <p class="p">为了确保第一时间到账，你可以把汇款收据发送到<span>accounts@acyfx.com</span></p>
+                </div>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layer-funds" style="display: none">
+    <div class="layer-bg"></div>
+    <div class="layer layer-one">
+        <div class="layer-title">
+            <span>银行转账</span>
+
+            <h1></h1>
+            <label class="icon-18 icon-18-close close-funds"></label>
+        </div>
+        <div class="layer-menu padd-30">
+            <h2>ACY 稀万国际 USD(美金）、AUD（澳元）、EUR(欧元）、
+                CNY（人民币）银行信息:
+            </h2>
+
+            <div>
+                <p><label>银行名称</label><span>HSBC</span></p>
+
+                <p><label>银行地址</label><span>1 Queen's Road Central, Hong Kong</span></p>
+
+                <p><label>银行账号</label><span>848-587093-838</span></p>
+
+                <p><label>SWIFT(银行国际代码)</label><span>HSBCHKHHHKH</span></p>
+
+                <p><label>公司名称</label><span>ACY Capital Australia Limited</span></p>
+            </div>
+            <p class="mar-top-10">· 请在填写汇款表格时，在附言中写下你的MT4账号以及账户名字</p>
+
+            <p class="p">为了确保第一时间到账，你可以把汇款收据发送到<span>accounts@acyfx.com</span></p>
+        </div>
+        <div class="layer-stern">
+            <a href="" class="btn-middle bg-blue-4 btn-blue-border close-funds" type="button">关闭</a>
+        </div>
+    </div>
+</div>
+<!--弹出层——银行转账——1_over-->
+<!--弹出层——银联——2_start-->
+<div class="modal fade" id="myModalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title">
+                    银联
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="layer-menu">
+                    <div class="con border-bottom">
+                        <div class="mar-top-20">
+                            <label>名</label>
+                            <select class="input-one">
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>姓</label>
+                            <input class="input-one" type="text"
+                                   placeholder=""/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>电子邮件</label>
+                            <select class="input-one">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="con">
+                        <div class="">
+                            <label>名</label>
+                            <input class="input-one input-one-gray" type="text" disabled="disabled"
+                                   placeholder="ACY FX"/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>姓</label>
+                            <input class="input-one input-one-gray" type="text" disabled="disabled"
+                                   placeholder="Intemal  Testing"/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>电子邮件</label>
+                            <input class="input-one" type="text"
+                                   placeholder=""/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>联系电话</label>
+                            <input class="input-one" type="text" placeholder=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary">支付</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layer-funds" style="display: none">
+    <div class="layer-bg"></div>
+    <div class="layer layer-one">
+        <div class="layer-title">
+            <span>银行转账</span>
+
+            <h1></h1>
+            <label class="icon-18 icon-18-close close-funds"></label>
+        </div>
+        <div class="layer-menu padd-30">
+            <h2>ACY 稀万国际 USD(美金）、AUD（澳元）、EUR(欧元）、
+                CNY（人民币）银行信息:
+            </h2>
+
+            <div>
+                <p><label>银行名称</label><span>HSBC</span></p>
+
+                <p><label>银行地址</label><span>1 Queen's Road Central, Hong Kong</span></p>
+
+                <p><label>银行账号</label><span>848-587093-838</span></p>
+
+                <p><label>SWIFT(银行国际代码)</label><span>HSBCHKHHHKH</span></p>
+
+                <p><label>公司名称</label><span>ACY Capital Australia Limited</span></p>
+            </div>
+            <p class="mar-top-10">· 请在填写汇款表格时，在附言中写下你的MT4账号以及账户名字</p>
+
+            <p class="p">为了确保第一时间到账，你可以把汇款收据发送到<span>accounts@acyfx.com</span></p>
+        </div>
+        <div class="layer-stern">
+            <a href="" class="btn-middle bg-blue-4 btn-blue-border close-funds" type="button">关闭</a>
+        </div>
+    </div>
+</div>
+<div class="layer-bankTransfer" style="display: none">
+    <div class="layer-bg"></div>
+    <div class="layer layer-one">
+        <div class="layer-title">
+            <span>银联</span>
+
+            <h1></h1>
+            <label class="icon-18 icon-18-close close-bankTransfer"></label>
+        </div>
+        <div class="layer-menu">
+            <div class="con border-bottom">
+                <div class="mar-top-20">
+                    <label>名</label>
+                    <select class="input-one">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="mar-top-20">
+                    <label>姓</label>
+                    <input class="input-one" type="text"
+                           placeholder=""/>
+                </div>
+                <div class="mar-top-20">
+                    <label>电子邮件</label>
+                    <select class="input-one">
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+            <div class="con">
+                <div class="">
+                    <label>名</label>
+                    <input class="input-one input-one-gray" type="text" disabled="disabled"
+                           placeholder="ACY FX"/>
+                </div>
+                <div class="mar-top-20">
+                    <label>姓</label>
+                    <input class="input-one input-one-gray" type="text" disabled="disabled"
+                           placeholder="Intemal  Testing"/>
+                </div>
+                <div class="mar-top-20">
+                    <label>电子邮件</label>
+                    <input class="input-one" type="text"
+                           placeholder=""/>
+                </div>
+                <div class="mar-top-20">
+                    <label>联系电话</label>
+                    <input class="input-one" type="text" placeholder=""/>
+                </div>
+            </div>
+        </div>
+        <div class="layer-stern">
+            <span class="btn-middle btn-bg-green btn-green-border mar-right-10">支付</span>
+            <span class="btn-middle bg-blue-4 btn-blue-border close-bankTransfer">关闭</span>
+        </div>
+    </div>
+</div>
+<!--弹出层——银联——2_over-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/global.js"></script>
+<!--<script src="js/funds.js"></script>-->
+</body>
+</html>

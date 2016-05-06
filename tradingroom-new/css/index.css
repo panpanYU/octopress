@@ -1,0 +1,192 @@
+/* 轮播广告 */
+
+.carousel {
+    height: 160px;
+    margin: 20px 0 20px 0;
+}
+
+.carousel .item {
+    height: 160px;
+    background-color: #000;
+}
+
+.carousel .item img {
+    width: 100%;
+    /*height: 160px;*/
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* 简介 */
+
+.summary {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.summary .col-md-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 特性 */
+
+.feature-divider {
+    margin: 40px 0;
+}
+
+.feature {
+    padding: 30px 0;
+}
+
+.feature-heading {
+    font-size: 50px;
+    color: #2a6496;
+}
+
+.feature-heading .text-muted {
+    font-size: 28px;
+}
+
+/* 响应式布局 */
+
+@media (max-width: 768px) {
+
+    .summary {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    .carousel {
+        height: 160px;
+        margin-bottom: 30px;
+    }
+
+    .carousel .item {
+        height: 160px;
+    }
+
+    .carousel img {
+        min-height: 160px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .feature-heading {
+        font-size: 34px;
+    }
+
+    .feature-heading .text-muted {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature-heading {
+        margin-top: 120px;
+    }
+}
+
+.sort {
+    border-left: 1px solid #dddedf;
+    border-top: 1px solid #dddedf;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 100%;
+}
+
+.sort a {
+    text-align: center;
+    width: 33.3339%;
+    height: 165px;
+    padding: 30px 0;
+    background-color: #fff;
+    overflow: hidden;
+    border-right: 1px solid #dddedf;
+    border-bottom: 1px solid #dddedf;
+    float: left;
+    font-size: 14px;
+    color: #333
+}
+.sort a img {
+    width: 100%;
+    height: 160px;
+    display: block
+}
+
+.sort a:last-child {
+    border-right: 1px solid #dddedf;
+    border-bottom: 1px solid #dddedf;
+    text-align: right;
+    height: 165px;
+    padding: 0;
+}
+
+.sort a:hover {
+    background-color: #738cc3;
+    color: #fff
+}
+
+.sort a:hover:last-child {
+    background-color: #fff
+}
+
+.sort a:hover p .icon-50-grzj {
+    background-position: 0 -400px
+}
+
+.sort a:hover p .icon-50-crzj {
+    background-position: 0 -450px
+}
+
+.sort a:hover p .icon-50-tqzj {
+    background-position: 0 -500px
+}
+
+.sort a:hover p .icon-50-zjnz {
+    background-position: 0 -550px
+}
+
+.sort a:hover p .icon-50-download {
+    background-position: 0 -600px
+}
+
+.sort a:hover p .icon-50-yhzh {
+    background-position: 0 -650px
+}
+
+.sort a:hover p .icon-50-sqzzh {
+    background-position: 0 -700px
+}
+
+.sort a:hover p .icon-50-hzq {
+    background-position: 0 -750px
+}
+
+.sort a p {
+    margin-top: 7px
+}
+
+.sort a .gzq {
+    vertical-align: baseline;
+    margin-top: 145px;
+}
+
+.sort a span {
+    margin-top: 7px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
