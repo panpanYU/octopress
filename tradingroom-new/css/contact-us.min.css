@@ -9,3 +9,42 @@
     vertical-align: top;
 }
 
+.innercon .succeed-status {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.innercon .succeed-status .succeed-infor span {
+    margin-top: 70px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 90px;
+    background-color: #dff0d7;
+    border: none;
+    overflow: hidden
+}
+
+.innercon .succeed-status .succeed-infor p {
+    color: #619b61;
+    font-size: 20px;
+    margin: 22px 0
+}
+
+.innercon .succeed-status p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #666
+}
+
+.innercon .succeed-status a {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #5a7db6;
+    margin: 150px 0 126px 0;
+    font-weight: bold
+}
