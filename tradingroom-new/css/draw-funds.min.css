@@ -34,14 +34,6 @@
 }
 
 
-.innercon .note p {
-    margin-bottom: 20px;
-   display: inline-block;
-    text-align: justify;
-    color: #666;
-
-}
-
 .innercon .note span:last-child{
     display: block;
     margin-top: 10px;
@@ -54,3 +46,19 @@
 display: inline;
 }
 
+
+
+@media(max-device-width:414px){
+    .innercon .textOn {
+       height: 170px!important;
+
+    }
+
+}
+@media(min-device-width:414px){
+    .innercon .textOn {
+        height: 90px!important;
+
+    }
+
+}

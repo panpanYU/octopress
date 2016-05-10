@@ -11,7 +11,12 @@
     display: box;
     display: -moz-flex;
     display: -webkit-flex;
-    display: flex
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+
 }
 
 .layer-menu .con div label {
@@ -92,3 +97,5 @@ background-color: white;
     color: #fff;
     border-color: #8b9fc5;
 }
+
+
