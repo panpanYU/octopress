@@ -334,10 +334,7 @@ ul li {
 .investment_con_one {
 }
 
-.investment_con_one .investment_con_list_one {
-    width: 99.99%;
-    overflow: auto;
-}
+
 
 .investment_con_one .investment_con_list_one .cycle_one {
     width: 598px;
@@ -659,5 +656,9 @@ ul li {
     }
     .investment_con_list .classify-two .classify-two-tit input {
         width: 129px;
+    }
+    .investment_con_one .investment_con_list_one {
+        width: 99.99%;
+        overflow: auto;
     }
 }
