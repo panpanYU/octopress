@@ -22,7 +22,7 @@
 
     <!-- Modernizer -->
     <script type="text/javascript" src="js/vendor/modernizr-3.3.1.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script></head>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script></head>
   <body>
      <div class="ace-wrapper">
          <header id="ace-header" class="ace-container-shift ace-logo-in ace-head-boxed ace-nav-right">
@@ -41,8 +41,8 @@
                                     <ul class="clear-list">
                                         <li><a href="index.html">关于我\</a></li>
                                         <li><a href="portfolio.html">作品集\</a>
-                                        <li><a href="egindex.html">English</a>
-                                    </ul>
+                                        </li><li><a href="egindex.html">English</a>
+                                    </li></ul>
                                  </nav>
                              </div>
                          </div>
@@ -56,6 +56,15 @@
             <ul class="clear-list">
                 <li>
                     <a href="index.html" data-tooltip="Home"><img class="avatar avatar-42" src="img/uploads/avatar/avatar-42x42.png" style="background:none!important;" alt=""></a>
+                </li>
+                <li>
+                    <a href="experience.html" data-tooltip="Experience"><span class="ace-icon ace-icon-experience"></span></a>
+                </li>
+                <li class="active">
+                    <a href="portfolio.html" data-tooltip="Portfolio"><span class="ace-icon ace-icon-portfolio"></span></a>
+                </li>
+                <li>
+                    <a href="testimonials.html" data-tooltip="References"><span class="ace-icon ace-icon-references"></span></a>
                 </li>
                 <li>
                     <a href="contact.html" data-tooltip="Contact"><span class="ace-icon ace-icon-contact"></span></a>
@@ -91,7 +100,14 @@
             <div class="ace-container">
 
                 
-                    <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+                    
+        
+               
+
+
+
+
+<div id="ace-nav-wrap" class="hidden-sm hidden-xs">
                         <div class="ace-nav-cont">
                             <div id="ace-nav-scroll">
                                 <nav id="ace-nav" class="ace-nav">
@@ -99,7 +115,7 @@
                                         <li>
                                             <a href="index.html" data-tooltip="Home"><img class="avatar avatar-42" src="img/uploads/avatar/avatar-42x42.png" style="background:none!important;" alt=""></a>
                                         </li>    
-                                        <li>
+                                        <li class="active">
                                             <a href="portfolio.html" data-tooltip="Portfolio"><span class="ace-icon ace-icon-portfolio"></span></a>
                                         </li>                               
                                         <li>
@@ -129,271 +145,358 @@
                         <div class="ace-paper-cont clear-mrg">
                         
                         <!-- START: PAGE CONTENT -->
-    <div class="padd-box clear-mrg">
-        <section class="section brd-btm">
-            <div class="row">
-                <div class="col-sm-12 clear-mrg text-box">
-                    
 
-                    <p><b>Hello</b><br>很高兴您能访问我的主页，我是一名有2年平面设计，3年前端开发的技术人员，如您有合适的职位请联系我，O(∩_∩)O谢谢！</p>
+<div class="padd-box">
+    <h1 class="title-lg text-upper">portfolio</h1>
+</div>
 
-                    
+
+<div class="pf-wrap">
+    <div class="pf-filter padd-box">
+        <button data-filter="*" class="active">all</button>
+        <button data-filter=".design">design</button>
+    </div><!-- .pf-filter -->
+
+    <div class="pf-grid loaded" style="position: relative; height: 1169.16px;">
+        <div class="pf-grid-sizer"></div><!-- used for sizing -->
+
+        <div class="pf-grid-item photography" style="position: absolute; left: 0%; top: 0px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-01.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                                                       <h2 class="text-upper">❤️</h2>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section><!-- .section -->
 
-        <section class="section brd-btm">
-            <div class="row">
-                <div class="col-sm-6 clear-mrg">
-                    <h2 class="title-thin text-muted">个人信息</h2>
-
-                    <dl class="dl-horizontal clear-mrg">
-                        <dt class="text-upper">全名</dt>
-                        <dd>余攀</dd>
-
-                        <dt class="text-upper">出生日期</dt>
-                        <dd>1989/9</dd>
-
-                        <dt class="text-upper">现居地</dt>
-                        <dd>上海浦东</dd>
-
-                        <dt class="text-upper">e-mail</dt>
-                        <dd><a href="mailto:13918154493@163.com">13918154493@163.com</a></dd>
-
-                        <dt class="text-upper">联系电话</dt>
-                        <dd>+86 13918154493</dd>
-
-                        <dt class="text-upper">工作情况</dt>
-                        <dd>目前在职</dd>
-                    </dl>
-                </div><!-- .col-sm-6 -->
-
-                <div class="col-sm-6 clear-mrg">
-                    <h2 class="title-thin text-muted">教育|培训经历</h2>
-
-                    <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
-                        <strong class="progress-title">2008/9-2012/6</strong>
-                        <span class="progress-bar">
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                        </span>
-                        <span class="progress-text text-muted">湖北工业大学   本科|环境艺术设计</span>
-                    </div>
-
-                    <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">
-                        <strong class="progress-title">2015/4--2015/6</strong>
-                        
-                        <span class="progress-text text-muted">珠峰js  培训原生JS、jQuery、AJAX、设计模式、HTML5、移动端等。</span>
-                    </div>
-
-                    <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">
-                        <strong class="progress-title">2013/3--2013/10</strong>
-                        
-                        <span class="progress-text text-muted"> 昂立IT教育学院
-Photoshop、illutrator、Dreamweaver、Fireworks</span>
-                    </div>
-                </div><!-- .col-sm-6 -->
-            </div><!-- .row -->
-        </section><!-- .section -->
-
-        <section class="section brd-btm">
-            <div class="row">
-                <div class="col-sm-6 clear-mrg">
-                    <h2 class="title-thin text-muted">技能</h2>
-
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="progress-chart ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" data-text="90%" data-value="0.9" style="position: relative;"><svg viewBox="0 0 100 100" style="display: block; width: 100%;"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 29.8493;"></path></svg><div class="progress-text" style="top: 50%; left: 50%; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">90%</div></div>
-                                <strong class="progress-title">html5 css3</strong>
-                            </div>
-                        </div><!-- .col-xs-4 -->
-
-                        <div class="col-xs-4">
-                            <div class="progress-chart ace-animated" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" data-text="81%" data-value="0.81" style="position: relative;"><svg viewBox="0 0 100 100" style="display: block; width: 100%;"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 56.7137;"></path></svg><div class="progress-text" style="top: 50%; left: 50%; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">81%</div></div>
-                                <strong class="progress-title">vue &amp; jQuery</strong>
-                            </div>
-                        </div><!-- .col-xs-4 -->
-
-                        <div class="col-xs-4">
-                            <div class="progress-chart ace-animated" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" data-text="66%" data-value="0.66" style="position: relative;"><svg viewBox="0 0 100 100" style="display: block; width: 100%;"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 101.488;"></path></svg><div class="progress-text" style="top: 50%; left: 50%; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">66%</div></div>
-                                <strong class="progress-title">UI Design</strong>
-                            </div>
-                        </div><!-- .col-xs-4 -->
-                    </div><!-- .row -->
-                </div><!-- .col-sm-6 -->
-
-                <div class="col-sm-6 clear-mrg">
-                    <h2 class="title-thin text-muted">擅长软件</h2>
-
-                    <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">ps</strong>
-                        <div class="progress-bar" data-text="90%" data-value="0.9" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 10;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">90%</div></div>
-                    </div>
-
-                    <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">VS code/sublime</strong>
-                        <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div></div>
-                    </div>
-
-                    <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">sketch</strong>
-                        <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div></div>
-                    </div>
-
-                    <div class="progress-line ace-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">Git</strong>
-                        <div class="progress-bar" data-text="70%" data-value="0.7" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 30;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">70%</div></div>
-                    </div>
-                </div><!-- .col-sm-6 -->
-            </div><!-- .row -->
-        </section><!-- .section -->
-
-        <section class="section brd-btm">
-            <div class="row">
-                <div class="col-sm-12 clear-mrg">
-                    <h2 class="title-thin text-muted">工作经验</h2>
-
-                    <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2017.4-至今           上海品上生活电子商务有限公司            前端工程师</strong>
-                       1．主要运用vue.js+elementUI搭建后台电商系统，
-2．将PSD还原html，配合后台java人员接口调优；
-运用的技术：vue.js、elementUI、less、webpack、ext.js
-项目案列：http://px.tramy.cn/#/
-
-</div></div>
-                    </div>
-
-                           <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2016/3-2017.4         上海老吾老网络科技有限公司              前端工程师</strong>
-                        <div><div class="progress-text" style="">1．主要运用vue.js+elementUI搭建后台电商系统，
-2．将PSD还原html，配合后台java人员接口调优；
-运用的技术：vue.js、elementUI、less、webpack、ext.js
-项目案列：http://m.eastallcar.com/html/
-
-</div></div>
-                    </div>
-                             <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2017.4-至今      上海品上生活电子商务有限公司     前端工程师</strong>
-                        <div><div class="progress-text" style="">1．负责响应式网站开发工作并能有效解决各浏览器兼容性问题；
-2．将设计效果图以html5+css3构建，用bootstrap制作成符合w3c标准的响应式页面；
-3．负责网站前端开发，与后台工程师协作，完成数据交互、动态信息展现；
-4．与原生APP苹果和安卓进行数据交互；
-项目案列：
-PC url： http://h5.i5family.com/i5mall/  https://cloudhub.acyfx.com/zh/auth/login
-后台url：http://h5.i5family.com/i5mall/admin/backendUi!login.do?timeout=yes
-App Store：吾家健康、家庭医生
-</div></div>
-                    </div>
-                             <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2015/7-2016.2         上海金扳手信息科技股份有限公司          前端工程师</strong>
-                        <div><div class="progress-text" style="">1．适配各手机高清显示，还原设计稿，静态布局，js脚本，保证兼容性；
-2．与后台java开发人员进行数据交互，包含微信端链条；
-运用的技术：zepto、angular、less、RequireJS、sketch
-项目案列：http://m.eastallcar.com/html/
-
-</div></div>
-                    </div>  
-   <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2012/10-2015.3         上海润都照明设计有限公司               平面设计师</strong>
-                        <div><div class="progress-text" style="">1. 主要运用Photoshop完成平面设计方案，深化效果图设计。
+            <div id="pf-popup-1" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
 
                     </div>
-                    
-                </div><!-- .col-sm-6 -->
+                </div><!-- .pf-popup-col1 -->
 
-                <!-- .col-sm-6 -->
-            </div><!-- .row -->
-        </section><!-- .section -->
-<section class="section brd-btm">
-            <div class="row">
-                <div class="col-sm-12 clear-mrg">
-                    <h2 class="title-thin text-muted">项目经验</h2>
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
 
-                    <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2017.4-至今           生鲜电商平台</strong>
-                        <div><div class="progress-text" style="">
-用vue+elementUI+node+webpack搭建电商B端平台
-                        http://px.tramy.cn/#/
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
 
-</div></div>
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item design" style="position: absolute; left: 50%; top: 0px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-02.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                                                      <h2 class="text-upper">❤️</h2>
+
+                        </div>
                     </div>
-
-                           <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2016/3-2017.4         吾家健康APP客户端、微信公众号、后台管理系统等</strong>
-                        <div><div class="progress-text" style="">开发电商APP，将设计效果图以html5+css3构建，与后台、安卓、iOS进行交互。
-电商url：http://h5.i5family.com/i5mall/
-后台：http://h5.i5family.com/i5mall/admin/backendUi!login.do?timeout=yes
-App Store：吾家健康、家庭医生
-
-</div></div>
-                    </div>
-                             <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2016/3-2016/4    ACY稀万国际后台管理中心</strong>
-                        <div><div class="progress-text" style="">项目描述：  https://cloudhub.acyfx.com/zh/auth/login
-责任描述：   把设计出来的效果图，用bootstrap制作成符合w3c标准的响应式页面，并配合后台进行相关页面的修改。
-</div></div>
-                    </div>
-   <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2015/7-2016/2    金扳手微信公众号开发</strong>
-                        <div><div class="progress-text" style="">1. 项目描述：   http://m.eastallcar.com/html/
-责任描述：   把设计出来的效果图，用html+css制作成符合w3c标准的页面，并配合后台进行相关页面的修改。B端与C端开发。
-</div></div>
-                    </div>
-                     <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2014/10-2014/12  品岩官网</strong>
-                        <div><div class="progress-text" style="">项目描述：  http://www.evershinechina.com/
-责任描述：   把设计出来的效果图，用html+css制作成符合w3c标准的页面，并配合后台进行相关页面的修改。
-</div></div>
-                    </div>
-                     <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <strong class="progress-title">2014/9-2015/2    stmcu官网</strong>
-                        <div><div class="progress-text" style="">项目描述：  http://www.stmcu.com.cn/
-责任描述：   负责网站的排版，页面的制作，处理各个兼容浏览器问题。
-
-</div></div>
-                    </div>
-                    
-                </div><!-- .col-sm-6 -->
-
-                <!-- .col-sm-6 -->
-            </div><!-- .row -->
-        </section>
-        <section class="section brd-btm">
-            <div class="row">
-                <div class="col-sm-12 clear-mrg">
-                    <h2 class="title-thin text-muted">兴趣爱好</h2>
-
-                    <ul class="icon-list icon-list-col3 clearfix">
-                        <li><span class="ace-icon ace-icon-music"></span> 音乐</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 游戏</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 户外运动</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 旅游</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 画画</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 瑜伽</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 拉丁</li>
-                        <li><span class="ace-icon ace-icon-blog"></span> 阅读</li>
-                    </ul>
                 </div>
             </div>
-        </section><!-- .section -->
 
-        <section class="section">
-            <h2 class="title-thin text-muted">谢谢您的浏览，眼睛累了，休息一会哦！O(∩_∩)O哈哈~</h2>
+            <div id="pf-popup-2" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
 
-            <!-- .row -->
-        </section><!-- .section -->
-    </div><!-- .padd-box -->
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
+
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
+
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item photography" style="position: absolute; left: 0%; top: 292px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-03.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">❤️</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-3" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
+
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
+
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item design" style="position: absolute; left: 0%; top: 584px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-04.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                                                       <h2 class="text-upper">❤️</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-4" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
+
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
+
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item photography" style="position: absolute; left: 50%; top: 584px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-05.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                                                        <h2 class="text-upper">❤️</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-5" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
+
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
+
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item design" style="position: absolute; left: 0%; top: 876px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+<!--                     <img src="img/uploads/portfolio/prj-06.jpg" alt="">
+ -->                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                                                       <h2 class="text-upper">❤️</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-6" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
+
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
+
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+    
+        <div class="pf-grid-item photography" style="position: absolute; left: 50%; top: 876px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+<!--                     <img src="img/uploads/portfolio/prj-01.jpg" alt="">
+ -->                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                                                      <h2 class="text-upper">❤️</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-7" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">Project Title</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>11 Jan 2012</dd>
+
+                            <dt>Site link:</dt>
+                            <dd><a href="www.sitedomen.com">www.sitedomen.com</a></dd>
+
+                            <dt>Client:</dt>
+                            <dd>11 Jan 2012</dd>
+                        </dl>
+                        <p>About 64% of all on-line teens say that do things online that they wouldn’t want their
+                            parents to know about. 11% of all adult internet users visit dating websites and spend their
+                            time in chatrooms. Some of the classify their behavior as “cyber affair” More then 60% of
+                            employees use company PC for the personal needs during their work hours as long as 80
+                            minutes per day. </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+    </div><!-- .pf-grid -->
+</div><!-- .pf-wrap -->
+
 <!-- END: PAGE CONTENT -->
                         
                 </div><!-- .ace-paper-cont -->
@@ -408,7 +511,7 @@ App Store：吾家健康、家庭医生
             <span class="ace-icon ace-icon-close"></span>
         </button>
 
-        <div id="ace-sidebar-inner" class="mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+        <div id="ace-sidebar-inner" class="mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
             <nav id="ace-main-nav-sm" class="visible-xs visible-sm text-center">
                 <ul class="clear-list">
                     <li><a href="index.html">about</a></li>
@@ -563,16 +666,10 @@ App Store：吾家健康、家庭医生
                 </section>
             </aside>
 
-        </div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 0px; display: block; height: 0px; max-height: 313px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 0px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position:absolute;"><div class="mCSB_dragger_bar"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position:absolute;"><div class="mCSB_dragger_bar"></div></div><div class="mCSB_draggerRail"></div></div></div></div><!-- #ace-sidebar-inner -->
+        </div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; display: block; height: 63px; max-height: 337px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div><!-- #ace-sidebar-inner -->
     </div><!-- #ace-sidebar -->
 
-    <footer id="ace-footer" class="ace-container-shift">
-        <div class="ace-container">
-            <div class="ace-footer-cont clear-mrg">
-                                
-            </div>
-        </div><!-- .ace-container -->
-    </footer><!-- #ace-footer -->
+    <!-- #ace-footer -->
 
     <!-- Triangle Shapes -->
     <svg id="ace-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
@@ -597,6 +694,7 @@ App Store：吾家健康、家庭医生
 
 <script type="text/javascript" src="js/options.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+
 
 
 </body></html>
