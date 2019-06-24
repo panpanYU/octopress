@@ -140,15 +140,13 @@
             
             if(browser.versions.iPhone||browser.versions.iPad||browser.versions.iPod)
         {
-		alert("微信")
             //如果是ios系统，直接跳转至appstore该应用首页，传递参数为该应用在appstroe的id号
             window.location.href="http://itunes.apple.com/app/id1427124754";
         }else if(browser.versions.android)
         {
             //如果是android系统，直接下载安装
-            alert("微信安卓")
-            alert(androidURL)
-            window.location.href=androidURL;
+            alert("请使用浏览器打开下载")
+            // window.location=androidURL;
         }
 
         }
@@ -156,14 +154,12 @@
         {
             //如果是ios系统，直接跳转至appstore该应用首页，传递参数为该应用在appstroe的id号
             //window.location.href="http://itunes.apple.com/app/id1300423977";
-		alert("1")
             window.location.href="http://itunes.apple.com/app/id1427124754";
         }
         else if(browser.versions.android)
         {
-            alert("安卓")
             //如果是android系统，直接下载安装
-            window.location.href=androidURL;
+            window.location=androidURL;
         }
     };  
 	$( document ).ready(function() {
